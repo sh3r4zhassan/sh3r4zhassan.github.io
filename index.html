@@ -1,106 +1,24 @@
+---
+layout: default
+title: Your GitHub Profile
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Electrical Engineer</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-    }
-
-    header {
-      text-align: center;
-      padding: 80px 0;
-      background-color: #ff6f61;
-      color: #fff;
-    }
-
-    header h1 {
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
-
-    header p {
-      font-size: 20px;
-    }
-
-    section {
-      padding: 60px 0;
-      text-align: center;
-      color: #333;
-    }
-
-    .about {
-      background-color: #7bc043;
-      color: #fff;
-    }
-
-    .projects {
-      background-color: #00b8a9;
-      color: #fff;
-    }
-
-    .contact {
-      background-color: #febe00;
-    }
-
-    .section-title {
-      font-size: 28px;
-      margin-bottom: 30px;
-    }
-
-    .section-content {
-      max-width: 800px;
-      margin: 0 auto;
-      line-height: 1.6;
-    }
-
-    .section-content p {
-      margin-bottom: 20px;
-    }
-
-    .social-links {
-      list-style: none;
-      padding: 0;
-      margin-top: 30px;
-    }
-
-    .social-links li {
-      display: inline-block;
-      margin: 0 10px;
-    }
-
-    .social-links a {
-      display: block;
-      width: 40px;
-      height: 40px;
-      background-color: #fff;
-      color: #333;
-      border-radius: 50%;
-      line-height: 40px;
-      font-size: 18px;
-      text-align: center;
-      transition: background-color 0.3s ease;
-    }
-
-    .social-links a:hover {
-      background-color: #333;
-      color: #fff;
-    }
-  </style>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 <body>
   <header>
-    <h1>Sheraz Hassan</h1>
-    <p>Machine Learning </p>
+    <h1>{{ site.author.name }}</h1>
+    <p>{{ site.author.bio }}</p>
     <ul class="social-links">
-      <li><a href="https://github.com/sh3r4zhassan" target="_blank">&#127760;</a></li>
-<!--       <li><a href="https://twitter.com/yourusername" target="_blank">&#128172;</a></li> -->
-      <!-- Add more social links as needed -->
+      {% for link in site.author.social_links %}
+        <li><a href="{{ link.url }}" target="_blank">{{ link.icon }}</a></li>
+      {% endfor %}
     </ul>
   </header>
 
@@ -118,18 +36,13 @@
   <section class="projects">
     <div class="section-content">
       <h2 class="section-title">My Projects</h2>
-      <!-- Showcase some of your GitHub projects here -->
-      <div class="project-card">
-        <h3>Project 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-<!--         <a href="https://github.com/sh3r4zhassan/Deep-CNN-for-Environmental-Sound-Classification" target="_blank">View on GitHub</a> -->
-      </div>
-      <div class="project-card">
-        <h3>Project 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-<!--         <a href="https://github.com/sh3r4zhassan/Deep-CNN-for-Environmental-Sound-Classification" target="_blank">View on GitHub</a> -->
-      </div>
-      <!-- Add more project cards as needed -->
+      {% for project in site.projects %}
+        <div class="project-card">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+          <a href="{{ project.url }}" target="_blank">View on GitHub</a>
+        </div>
+      {% endfor %}
     </div>
   </section>
 
@@ -137,7 +50,7 @@
     <div class="section-content">
       <h2 class="section-title">Contact Me</h2>
       <p>Feel free to get in touch with me. I'm open to collaborations and new opportunities!</p>
-      <a href="mailto:sherazhassan358@gmail.com">sherazhassan358@gmail.com</a>
+      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
     </div>
   </section>
 </body>
