@@ -1,68 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>{{ page.title }} | Sheraz Hassan</title>
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
       .main-nav {
-        background: #f4f4f4;
-        padding: 2em 2em;
+        background: #fff;
+        padding: 2em 1.5em 1em;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
         position: sticky;
         top: 0;
         z-index: 1000;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
       }
+
+      .main-nav .links {
+        display: flex;
+        gap: 2em;
+        background: #fff;
+        padding: 0.6em 2em;
+        border-radius: 2em;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+        margin-bottom: 1.5em;
+      }
+
       .main-nav .links a {
-        margin-right: 1.5em;
         text-decoration: none;
         color: #222;
         font-weight: 500;
         font-size: 1rem;
+        transition: color 0.2s ease;
       }
+
+      .main-nav .links a:hover {
+        color: #0077cc;
+      }
+
+      .main-nav .contact-label {
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: #555;
+        margin-bottom: 0.5em;
+      }
+
+      .main-nav .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5em;
+      }
+
       .main-nav .icons a {
-        margin-left: 1em;
         color: #222;
         font-size: 1.2rem;
+        transition: color 0.2s ease;
       }
-      .main-nav .icons a:hover,
-      .main-nav .links a:hover {
+
+      .main-nav .icons a:hover {
         color: #0077cc;
       }
     </style>
   </head>
+
   <body>
     <nav class="main-nav">
       <div class="links">
         <a href="/">Home</a>
         <a href="/research">Research</a>
-        <!-- <a href="/blog.md">Blog</a> -->
+        <a href="/projects">Projects</a>
         <a href="/assets/Sheraz_Hassan_CV.pdf">CV</a>
       </div>
+
       <div class="icons">
         <a href="https://www.linkedin.com/in/sh3r4zhassan/" class="fab fa-linkedin" title="LinkedIn"></a>
         <a href="https://github.com/sh3r4zhassan" class="fab fa-github" title="GitHub"></a>
-        <a href="https://scholar.google.com/citations?user=aNlZoQwAAAAJ&hl=en" title="Google Scholar">   
+        <a href="https://scholar.google.com/citations?user=aNlZoQwAAAAJ&hl=en" title="Google Scholar">
           <i class="fas fa-graduation-cap"></i>
         </a>
         <a href="mailto:sherazhassan358@gmail.com" class="fa-solid fa-envelope" title="Email"></a>
       </div>
     </nav>
 
-    <main style="max-width: 1200; margin: auto; padding: 2em 1em;">
+    <main style="max-width: 1200px; margin: auto; padding: 2em 1em;">
       {{ content }}
     </main>
 
     <footer style="text-align: center; padding: 2em 1em; background: #f1f1f1;">
-  <p><strong>Contact Information</strong></p>
-  <p>Email: <a href="mailto:sherazhassan358@gmail.com"></a>sherazhassan358@gmail.com</a></p>
-  <p>&copy; 2025 Sheraz Hassan</p>
-</footer>
+      <p>&copy; 2025 All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
