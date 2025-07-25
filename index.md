@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<div style="display: flex; flex-wrap: wrap; align-items: flex-end; gap: 3em; max-width: 1200px; margin: auto; padding: 2em 1em;">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; gap: 3em;  padding: 2em 1em;">
   <div style="flex: 0 0 300px;">
     <img src="/assets/profile.jpg" alt="Sheraz Hassan" style="width: 100%; border-radius: 12px; object-fit: cover;">
   </div>
@@ -17,7 +17,7 @@ title: Home
   </div>
 </div>
 
-<div style="max-width: 1200px; margin: 2em auto; padding: 0 1em;">
+<div style=" padding: 0 1em;">
   <div style="display: flex; flex-wrap: wrap; gap: 2em; align-items: stretch;">
 
     <!-- Left Column: Professional Experience -->
