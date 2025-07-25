@@ -8,7 +8,7 @@
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-      /* HEADER */
+      /* Unified Pill Header */
       .main-nav {
         background: transparent;
         padding: 1em 0;
@@ -18,19 +18,27 @@
         position: sticky;
         top: 0;
         z-index: 1000;
-        box-shadow: none;
       }
 
-      .main-nav .links {
+      .nav-pill {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
         gap: 2em;
-        background: #f1f1f1; /* Match footer background */
+        background: #f1f1f1;
         padding: 0.6em 2em;
         border-radius: 2em;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+        width: 100%;
+        max-width: 1000px;
       }
 
-      .main-nav .links a {
+      .nav-links {
+        display: flex;
+        gap: 2em;
+      }
+
+      .nav-links a {
         text-decoration: none;
         color: #222;
         font-weight: 500;
@@ -38,73 +46,67 @@
         transition: color 0.2s ease;
       }
 
-      .main-nav .links a:hover {
+      .nav-links a:hover {
         color: #0077cc;
       }
 
-      /* FOOTER */
+      .nav-icons {
+        display: flex;
+        align-items: center;
+        gap: 1.5em;
+      }
+
+      .nav-icons a {
+        color: #222;
+        font-size: 1.2rem;
+        transition: color 0.2s ease;
+      }
+
+      .nav-icons a:hover {
+        color: #0077cc;
+      }
+
       footer {
         text-align: center;
         padding: 2em 1em;
         background: #f1f1f1;
         margin-top: 4em;
       }
-
-      .contact-label {
-        font-size: 0.95rem;
-        font-weight: 600;
-        color: #555;
-        margin-bottom: 0.5em;
-      }
-
-      .footer-icons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1.5em;
-        margin-top: 0.5em;
-      }
-
-      .footer-icons a {
-        color: #222;
-        font-size: 1.2rem;
-        transition: color 0.2s ease;
-      }
-
-      .footer-icons a:hover {
-        color: #0077cc;
-      }
     </style>
   </head>
 
   <body>
-    <!-- Header Navigation (Sticky) -->
+    <!-- All-in-one Pill Header -->
     <nav class="main-nav">
-      <div class="links">
-        <a href="/">Home</a>
-        <a href="/research">Research</a>
-        <a href="/projects">Projects</a>
-        <a href="/assets/Sheraz_Hassan_CV.pdf">CV</a>
+      <div class="nav-pill">
+        <!-- Left side: Links -->
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/research">Research</a>
+          <a href="/projects">Projects</a>
+          <a href="/assets/Sheraz_Hassan_CV.pdf">CV</a>
+        </div>
+
+        <!-- Right side: Icons -->
+        <div class="nav-icons">
+          <a href="https://www.linkedin.com/in/sh3r4zhassan/" class="fab fa-linkedin" title="LinkedIn"></a>
+          <a href="https://github.com/sh3r4zhassan" class="fab fa-github" title="GitHub"></a>
+          <a href="https://scholar.google.com/citations?user=aNlZoQwAAAAJ&hl=en" title="Google Scholar">
+            <i class="fas fa-graduation-cap"></i>
+          </a>
+          <a href="mailto:sherazhassan358@gmail.com" class="fa-solid fa-envelope" title="Email"></a>
+        </div>
       </div>
     </nav>
 
-    <!-- Main Page Content -->
-    <main style="max-width: 1200px; margin: auto; padding: 2em 1em;">
+    <!-- Page Content -->
+    <main style="max-width: 900px; margin: auto; padding: 2em 1em;">
       {{ content }}
     </main>
 
-    <!-- Footer with Contact Icons -->
+    <!-- Simple Footer -->
     <footer>
-      <div class="contact-label">Let’s connect</div>
-      <div class="footer-icons">
-        <a href="https://www.linkedin.com/in/sh3r4zhassan/" class="fab fa-linkedin" title="LinkedIn"></a>
-        <a href="https://github.com/sh3r4zhassan" class="fab fa-github" title="GitHub"></a>
-        <a href="https://scholar.google.com/citations?user=aNlZoQwAAAAJ&hl=en" title="Google Scholar">
-          <i class="fas fa-graduation-cap"></i>
-        </a>
-        <a href="mailto:sherazhassan358@gmail.com" class="fa-solid fa-envelope" title="Email"></a>
-      </div>
-      <p style="margin-top: 2em;">&copy; 2025 All Rights Reserved.</p>
+      <p style="margin-top: 2em; color: #000; opacity: 0.5;">&copy; 2025 All Rights Reserved</p>
     </footer>
   </body>
 </html>
