@@ -8,21 +8,18 @@
   <meta property="og:title" content="Sheraz Hassan | PhD Candidate">
   <meta property="og:description" content="PhD student at Georgia Tech working on ML, biomedical signals, and wearable computing.">
   <meta property="og:image" content="assets/profile.jpg">
-  <meta property="og:url" content="https://sh3r4zhassan.github.io">
+  <meta property="og:url" content="https://www.sherazhassan.com">
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
-    html {
+    html, body {
       scroll-behavior: smooth;
-    }
-    body {
-      font-family: 'Inter', sans-serif;
       margin: 0;
       padding: 0;
-      color: var(--fg);
-      background: var(--bg);
-      transition: background 0.3s, color 0.3s;
+      font-family: 'Inter', sans-serif;
+      background: #ffffff;
+      color: #222222;
     }
     header, section {
       padding: 4em 1em;
@@ -30,28 +27,22 @@
       margin: auto;
     }
     h1, h2, h3 {
-      color: var(--heading);
+      color: #2c3e50;
       font-weight: 600;
     }
     nav.main-nav {
       text-align: center;
       background: #f4f4f4;
       padding: 1em 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
     }
     nav.main-nav a {
       margin: 0 1em;
       color: #444;
       text-decoration: none;
       font-weight: 500;
-    }
-    .project, .job, .publication, .blog-post {
-      margin-bottom: 2em;
-    }
-    footer {
-      text-align: center;
-      padding: 2em 1em;
-      background: #f1f1f1;
-      font-size: 0.9em;
     }
     ul.social-icons {
       list-style: none;
@@ -72,39 +63,30 @@
       border-radius: 50%;
       object-fit: cover;
     }
-    .dark-toggle {
-      position: fixed;
-      top: 1em;
-      right: 1em;
-      background: none;
-      border: 1px solid #888;
-      border-radius: 4px;
-      padding: 0.5em;
-      cursor: pointer;
+    .project, .job, .publication, .blog-post {
+      margin-bottom: 2em;
     }
-    :root {
-      --bg: #ffffff;
-      --fg: #222222;
-      --heading: #2c3e50;
+    footer {
+      text-align: center;
+      padding: 2em 1em;
+      background: #f1f1f1;
+      font-size: 0.9em;
     }
-    .dark {
-      --bg: #1e1e1e;
-      --fg: #dddddd;
-      --heading: #ffffff;
+    a {
+      color: #0077cc;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <button class="dark-toggle" onclick="document.body.classList.toggle('dark')">🌓</button>
-
   <nav class="main-nav">
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#publications">Publications</a>
-    <a href="#experience">Experience</a>
-    <a href="#blog">Blog</a>
-    <a href="#cv">CV</a>
-    <a href="#contact">Contact</a>
+    <a href="index.html#about">About</a>
+    <a href="research.html">Research</a>
+    <a href="blog.html">Blog</a>
+    <a href="index.html#cv">CV</a>
+    <a href="index.html#contact">Contact</a>
   </nav>
 
   <header>
@@ -123,59 +105,7 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>I'm a PhD student at Georgia Tech working at the intersection of machine learning, biomedical signals, and low-cost wearable hardware. My research involves creating resource-efficient ML systems for health monitoring and intervention.</p>
-  </section>
-
-  <section id="projects">
-    <h2>Selected Projects</h2>
-    <div class="project">
-      <h3>Smart Doorbell with TinyML</h3>
-      <p>Designed a real-time image/audio classification system on Nano BLE. Deployed multitenant models using knowledge distillation for low memory use.</p>
-    </div>
-    <div class="project">
-      <h3>PPG-Based Heart Rate Estimation</h3>
-      <p>Proposed RKF & ELM-based heart rate model with lowest computational cost for wearable devices.</p>
-    </div>
-    <div class="project">
-      <h3>YOLOv8 Food QA System</h3>
-      <p>Built an end-to-end system for classifying food on plates for quality assurance in restaurants using YOLOv8.</p>
-    </div>
-  </section>
-
-  <section id="publications">
-    <h2>Publications</h2>
-    <div class="publication">
-      <p><strong>Author1, Sheraz Hassan, Author3.</strong> "Title of the Paper." <em>Conference Name</em>, 2025. [<a href="#">PDF</a>] [<a href="#">BibTeX</a>]</p>
-    </div>
-    <div class="publication">
-      <p><strong>Sheraz Hassan, Author2.</strong> "Another Publication Title." <em>Journal Name</em>, 2024. [<a href="#">PDF</a>] [<a href="#">BibTeX</a>]</p>
-    </div>
-    <p><em>(Add more as published)</em></p>
-  </section>
-
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="job">
-      <h3>Graduate Research Assistant — Georgia Tech</h3>
-      <p>Designing ML and hardware systems for biomedical sensing at the edge.</p>
-    </div>
-    <div class="job">
-      <h3>Research Assistant — SDSA Lab</h3>
-      <p>Developed real-time sensing systems and ML models for diverse applications including healthcare and mobility.</p>
-    </div>
-  </section>
-
-  <section id="blog">
-    <h2>Blog / Updates</h2>
-    <div class="blog-post">
-      <h3>July 2025 — Launching My New Portfolio Website</h3>
-      <p>I’ve redesigned my website to showcase my research, projects, and publications. This version features dark mode, smooth scroll, and a more academic layout.</p>
-    </div>
-    <div class="blog-post">
-      <h3>June 2025 — Presented TinyML Research at XYZ Conference</h3>
-      <p>Shared our work on edge-efficient deep learning models for real-time human sensing at XYZ 2025. Paper under review.</p>
-    </div>
-    <p><em>More posts coming soon…</em></p>
+    <p>I'm a PhD student at Georgia Tech working at the intersection of machine learning, biomedical signals, and low-cost wearable hardware. My research involves creating resource-efficient ML systems for health monitoring and intervention. I am especially interested in combining sensing hardware with embedded AI to build real-world tools that impact health and human behavior.</p>
   </section>
 
   <section id="cv">
@@ -190,8 +120,5 @@
     <p>LinkedIn: <a href="https://linkedin.com/in/sh3r4zhassan/">Sheraz Hassan</a></p>
   </section>
 
-  <footer>
-    &copy; 2025 Sheraz Hassan | Built with HTML5 & CSS
-  </footer>
 </body>
 </html>
