@@ -10,13 +10,23 @@
   <body>
     <nav class="main-nav">
       <a href="/">Home</a>
+      <a href="/research.html">Research</a>
       <a href="/blog.html">Blog</a>
-      <a href="/assets/Sheraz_Hassan_CV.pdf">CV</a>
-      <a href="mailto:sherazhassan358@gmail.com">Contact</a>
+      <a href="#contact">Contact</a>
     </nav>
 
     <main style="max-width: 700px; margin: auto; padding: 2em 1em;">
       {{ content }}
+
+      {% if page.url == "/" %}
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:sherazhassan358@gmail.com">sherazhassan358@gmail.com</a></p>
+        <p>Department: Interactive Computing, Georgia Institute of Technology</p>
+        <p>GitHub: <a href="https://github.com/sh3r4zhassan">sh3r4zhassan</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sh3r4zhassan/">Sheraz Hassan</a></p>
+      </section>
+      {% endif %}
     </main>
 
     <footer style="text-align: center; padding: 2em 1em; background: #f1f1f1;">
