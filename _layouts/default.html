@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <style>
-      /* Unified Pill Header */
+      /* === Main Navigation === */
       .main-nav {
         background: transparent;
         padding: 1em 0 0.5em;
@@ -66,27 +67,79 @@
         color: #0077cc;
       }
 
+      /* === Page Content === */
+      main > div {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1em 1em 1em;
+      }
+
+      /* === Footer === */
       footer {
         background: #ffffff;
         padding: 1em 1em;
         margin-top: 2em;
       }
+
+      footer > div {
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+        border-top: 1.5px solid #f1f1f1;
+        padding-top: 1.5em;
+      }
+
+      footer p {
+        color: #888;
+        font-size: 0.8rem;
+      }
+
+      /* === Mobile Responsive === */
+      @media (max-width: 600px) {
+        .nav-pill {
+          flex-direction: column;
+          align-items: center;
+          padding: 0.8em 1em;
+          gap: 0.5em;
+        }
+
+        .nav-links,
+        .nav-icons {
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 0.5em;
+        }
+
+        .nav-links a,
+        .nav-icons a {
+          font-size: 0.9rem;
+        }
+
+        main > div {
+          padding: 1em 0.8em !important;
+        }
+
+        footer > div {
+          padding-top: 1em !important;
+        }
+
+        footer p {
+          font-size: 0.75rem;
+        }
+      }
     </style>
   </head>
 
   <body>
-    <!-- All-in-one Pill Header -->
+    <!-- === Sticky Pill Navigation === -->
     <nav class="main-nav">
       <div class="nav-pill">
-        <!-- Left side: Links -->
         <div class="nav-links">
           <a href="/">Home</a>
           <a href="/research">Research</a>
           <a href="/projects">Projects</a>
           <a href="/assets/Sheraz_Hassan_CV.pdf">CV</a>
         </div>
-
-        <!-- Right side: Icons -->
         <div class="nav-icons">
           <a href="https://www.linkedin.com/in/sh3r4zhassan/" class="fab fa-linkedin" title="LinkedIn"></a>
           <a href="https://github.com/sh3r4zhassan" class="fab fa-github" title="GitHub"></a>
@@ -98,17 +151,17 @@
       </div>
     </nav>
 
-    <!-- Page Content -->
+    <!-- === Page Content === -->
     <main>
-      <div style="max-width: 1200px; margin: 0 auto; padding: 1em 1em 1em;">
+      <div>
         {{ content }}
       </div>
     </main>
 
-    <!-- Footer with aligned top line -->
+    <!-- === Footer === -->
     <footer>
-      <div style="max-width: 1200px; margin: 0 auto; text-align: center; border-top: 1.5px solid #f1f1f1; padding-top: 1.5em;">
-        <p style="color: #888;">&copy; 2025 All Rights Reserved</p>
+      <div>
+        <p>&copy; 2025 All Rights Reserved</p>
       </div>
     </footer>
   </body>
