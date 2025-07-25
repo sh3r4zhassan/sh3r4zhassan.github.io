@@ -6,27 +6,57 @@
     <title>{{ page.title }} | Sheraz Hassan</title>
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+      .main-nav {
+        background: #f4f4f4;
+        padding: 1em 2em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+      }
+      .main-nav .links a {
+        margin-right: 1.5em;
+        text-decoration: none;
+        color: #222;
+        font-weight: 500;
+        font-size: 1rem;
+      }
+      .main-nav .icons a {
+        margin-left: 1em;
+        color: #222;
+        font-size: 1.2rem;
+      }
+      .main-nav .icons a:hover,
+      .main-nav .links a:hover {
+        color: #0077cc;
+      }
+    </style>
   </head>
   <body>
     <nav class="main-nav">
-      <a href="/">Home</a>
-      <a href="/research.html">Research</a>
-      <a href="/blog.html">Blog</a>
-      <a href="#contact">Contact</a>
+      <div class="links">
+        <a href="/">Home</a>
+        <a href="/research.html">Research</a>
+        <a href="/blog.html">Blog</a>
+        <a href="/assets/Sheraz_Hassan_CV.pdf">CV</a>
+      </div>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/sh3r4zhassan/" class="fab fa-linkedin" title="LinkedIn"></a>
+        <a href="https://github.com/sh3r4zhassan" class="fab fa-github" title="GitHub"></a>
+        <a href="https://scholar.google.com/citations?user=aNlZoQwAAAAJ&hl=en" title="Google Scholar">
+        <a href="mailto:sherazhassan358@gmail.com" class="fa-solid fa-envelope" title="Email"></a>
+          <i class="fas fa-graduation-cap"></i>
+        </a>
+      </div>
     </nav>
 
     <main style="max-width: 700px; margin: auto; padding: 2em 1em;">
       {{ content }}
-
-      {% if page.url == "/" %}
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:sherazhassan358@gmail.com">sherazhassan358@gmail.com</a></p>
-        <p>Department: Interactive Computing, Georgia Institute of Technology</p>
-        <p>GitHub: <a href="https://github.com/sh3r4zhassan">sh3r4zhassan</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/sh3r4zhassan/">Sheraz Hassan</a></p>
-      </section>
-      {% endif %}
     </main>
 
     <footer style="text-align: center; padding: 2em 1em; background: #f1f1f1;">
