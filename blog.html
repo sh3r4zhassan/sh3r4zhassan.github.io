@@ -1,43 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog | Sheraz Hassan</title>
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-</head>
-<body>
-  <nav class="main-nav">
-    <a href="index.html">Home</a>
-    <a href="research.html">Research</a>
-    <a href="blog.html">Blog</a>
-    <a href="index.html#cv">CV</a>
-    <a href="index.html#contact">Contact</a>
-  </nav>
+---
+layout: default
+title: Blog
+---
 
-  <header>
-    <h1>Blog / Updates</h1>
-    <p>Personal insights, research progress, and milestones</p>
-  </header>
-
-  <section id="blog">
-    <div class="blog-post">
-      <h3>July 2025 — Portfolio Launch</h3>
-      <p>I’ve rebuilt my personal website to reflect my PhD research, complete with dark mode (now removed), multi-page navigation, and project sections. Feedback welcome!</p>
-    </div>
-    <div class="blog-post">
-      <h3>June 2025 — Research at XYZ Conference</h3>
-      <p>Presented our TinyML benchmarking work at XYZ Conference. Exciting discussions on low-power embedded sensing!</p>
-    </div>
-    <div class="blog-post">
-      <h3>May 2025 — Puffpacket: BLE Health Tracker</h3>
-      <p>Completed firmware for Puffpacket — a BLE-based low-cost tracker for behavioral health research using Zephyr RTOS.</p>
-    </div>
-  </section>
-
-  <footer>
-    &copy; 2025 Sheraz Hassan | Built with HTML5 & CSS
-  </footer>
-</body>
-</html>
+<h1>Blog</h1>
+<p>Click any title to read the full post.</p>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%B %d, %Y" }})</small>
+    </li>
+  {% endfor %}
+</ul>

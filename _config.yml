@@ -1,0 +1,15 @@
+title: Sheraz Hassan
+email: sherazhassan358@gmail.com
+description: >
+  PhD Candidate in Computer Science at Georgia Tech. Research in ML, embedded health sensing, and low-cost wearables.
+baseurl: ""
+url: "https://www.sherazhassan.com"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+collections:
+  posts:
+    output: true
+markdown: kramdown
+highlighter: rouge
