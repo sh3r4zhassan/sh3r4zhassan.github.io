@@ -44,23 +44,26 @@ title: Projects
   }
 
   .project-buttons {
-    margin-top: 0.6em;
+    margin-top: 0.8em;
   }
 
   .project-buttons a {
     display: inline-block;
     margin-right: 0.8em;
     padding: 0.4em 0.9em;
-    background-color: #0077cc;
-    color: white;
+    background-color: #f1f1f1;
+    color: #222;
     font-size: 0.85rem;
     text-decoration: none;
     border-radius: 6px;
-    transition: background-color 0.2s;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    transition: background-color 0.2s, color 0.2s;
   }
 
   .project-buttons a:hover {
-    background-color: #005fa3;
+    background-color: #e6e6e6;
+    color: #0077cc;
   }
 
   @media (max-width: 768px) {
@@ -74,8 +77,6 @@ title: Projects
   }
 </style>
 
-# Research Projects
-
 <div class="project-row">
   <div class="project-image-wrapper">
     <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank" rel="noopener noreferrer">
@@ -84,7 +85,13 @@ title: Projects
   </div>
   <div class="project-text">
     <h3>PlatePerfect</h3>
-    <p>Trained YOLOv8 to classify and verify plated food items in restaurant settings.</p>
+    <p>
+      PlatePerfect is a computer vision-powered system designed to ensure consistency and quality in restaurant food presentation. 
+      Using a YOLOv8-nano model fine-tuned on the UECFOODPIX dataset (10,000+ labeled images), the system segments and classifies 
+      ingredients on plated dishes in real time. Deployed through an iPad app with an external camera, the model achieved over 
+      68% precision and recall across 101 food classes. By automating visual inspection, PlatePerfect helps reduce manual 
+      quality assurance effort, streamline operations, and improve customer satisfaction.
+    </p>
     <div class="project-buttons">
       <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank" rel="noopener noreferrer">GitHub</a>
       <a href="/assets/pdfs/Does_the_plate_look_correct.pdf" target="_blank" rel="noopener noreferrer">Report</a>
@@ -102,15 +109,21 @@ title: Projects
   </div>
   <div class="project-text">
     <h3>Smart Doorbell with TinyML</h3>
-    <p>Deployed multi-tenant models using knowledge distillation for audio/image inference on Nano BLE.</p>
+    <p>
+      Deployed multi-tenant models using knowledge distillation to enable low-power audio and visual classification on the Arduino Nano BLE Sense. 
+      The system recognizes visitors through real-time alerts and image/audio inference on-device without sending data to the cloud.
+    </p>
     <div class="project-buttons">
-      <a href="https://github.com/your/tinyml-doorbell" target="_blank">GitHub</a>
-      <a href="/assets/pdfs/TinyML_Doorbell_Report.pdf" target="_blank">Report</a>
+      <a href="https://github.com/your/tinyml-doorbell" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="/assets/pdfs/TinyML_Doorbell_Report.pdf" target="_blank" rel="noopener noreferrer">Report</a>
     </div>
   </div>
 </div>
 
 <div class="project-divider"></div>
+
+<!-- Continue structure for other projects -->
+
 
 <!-- Repeat structure above for other projects like Vizwhiz, Gene Regulatory Network, etc. -->
 
