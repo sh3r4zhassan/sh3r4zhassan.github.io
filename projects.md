@@ -122,13 +122,12 @@ title: Projects
 
   <div class="project-row even-row">
     <div class="project-image-wrapper">
-        <img src="/assets/images/VizWhiz.jpg" alt="VizWhiz" class="project-image">
+        <img src="/assets/images/VizWhiz.png" alt="VizWhiz" class="project-image">
     </div>
     <div class="project-text">
         <h3>VizWhiz</h3>
         <p>
-        VizWhiz is an interactive web application built with Streamlit for exploratory data analysis. It allows users to upload and analyze any CSV file, offering real-time visual feedback through over 15 plot types including bar charts, scatter plots, and heatmaps. 
-        The app includes built-in tools for data cleaning, descriptive statistics, and dimensionality reduction (PCA), making it suitable for both novice and advanced users. Tested on datasets with over 50,000 rows, VizWhiz provides responsive performance and is fully browser-based with no local setup required.
+        VizWhiz is an interactive web application built with Streamlit for exploratory data analysis. It allows users to upload and analyze any CSV file, offering real-time visual feedback through over 5 plot types including bar charts, box plots, and histograms. The app includes built-in tools for data cleaning, descriptive statistics, and dimensionality reduction (PCA), making it suitable for both novice and advanced users. Tested on datasets with over 50,000 rows, VizWhiz provides responsive performance and is fully browser-based with no local setup required.
         </p>
         <div class="project-buttons">
         <a href="https://github.com/sh3r4zhassan/VizWhiz" target="_blank">GitHub</a>
