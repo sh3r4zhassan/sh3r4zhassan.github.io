@@ -145,11 +145,7 @@ title: Projects
     <div class="project-text">
       <h3>Smart Doorbell with TinyML</h3>
       <p>
-        PlatePerfect is a computer vision-powered system designed to ensure consistency and quality in restaurant food presentation.
-        Using a YOLOv8-nano model fine-tuned on the UECFOODPIX dataset (10,000+ labeled images), the system segments and classifies
-        ingredients on plated dishes in real time. Deployed through an iPad app with an external camera, the model achieved over
-        68% precision and recall across 101 food classes. By automating visual inspection, PlatePerfect helps reduce manual
-        quality assurance effort and improves consistency across restaurant chains.
+        This project implements a low-power doorbell system using the Nano BLE Sense and TinyML. Lightweight image and audio models were deployed through knowledge distillation to detect visitors and notify residents. Designed for multi-tenant homes, the system supports secure, edge-based inference and runs fully offline. Tested in real-world settings, it demonstrates responsive performance with minimal power consumption.
       </p>
       <div class="project-buttons">
         <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank">GitHub</a>
@@ -162,17 +158,16 @@ title: Projects
 
   <div class="project-row even-row">
     <div class="project-image-wrapper">
-        <img src="/assets/images/profile.jpg" alt="Smart Doorbell" class="project-image">
+        <img src="/assets/images/GRN.png" alt="Smart Doorbell" class="project-image">
     </div>
     <div class="project-text">
       <h3>Gene Regulatory Network Prediction</h3>
       <p>
-        This project uses knowledge distillation to deploy lightweight audio and image classifiers on the Nano BLE.
-        It supports multi-tenant access and operates with low-power edge inference. Designed for private entry alerts in shared homes.
+        This project reconstructs Gene Regulatory Networks (GRNs) from simulated gene expression data using supervised machine learning models. With the goal to predict transcription factor (TF)-target gene interactions and evaluate the accuracy of reconstructed GRNs against known bipartite ground truth networks, I designed a hybrid model combining Random Forest, Lasso Regression, and Neural Networks achieving up to 10% higher AUROC than individual models and consistently outperformed baseline GRN inference across all conditions.
       </p>
       <div class="project-buttons">
-        <a href="https://github.com/your/tinyml-doorbell" target="_blank">GitHub</a>
-        <a href="/assets/pdfs/TinyML_Doorbell_Report.pdf" target="_blank">Report</a>
+        <a href="https://github.com/sh3r4zhassan/Gene_Regulatory_Network_Prediction" target="_blank">GitHub</a>
+        <!-- <a href="/assets/pdfs/TinyML_Doorbell_Report.pdf" target="_blank">Report</a> -->
       </div>
     </div>
   </div>
