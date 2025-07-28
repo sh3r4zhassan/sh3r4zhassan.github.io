@@ -12,10 +12,10 @@ title: Projects
 
   .project-row {
     display: flex;
-    align-items: stretch;
     gap: 2em;
     margin-bottom: 4em;
-    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
   }
 
   .even-row {
@@ -38,11 +38,12 @@ title: Projects
 
   .project-text p {
     text-align: justify;
+    margin-top: 0.5em;
   }
 
   .project-image {
     width: 100%;
-    height: 100%;
+    max-height: 300px;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
@@ -51,11 +52,6 @@ title: Projects
 
   .project-image:hover {
     transform: scale(1.03);
-  }
-
-  .project-divider {
-    border-top: 1.5px dashed #bbb;
-    margin: 2.5em 0;
   }
 
   .project-buttons {
@@ -78,6 +74,11 @@ title: Projects
     background-color: #ddd;
   }
 
+  .project-divider {
+    border-top: 1.5px dashed #bbb;
+    margin: 2.5em 0;
+  }
+
   @media (max-width: 768px) {
     .project-row {
       flex-direction: column !important;
@@ -90,6 +91,7 @@ title: Projects
 
     .project-image {
       height: auto;
+      max-height: none;
     }
   }
 </style>
@@ -140,6 +142,7 @@ title: Projects
   </div>
 
 </div>
+
 
 
 
