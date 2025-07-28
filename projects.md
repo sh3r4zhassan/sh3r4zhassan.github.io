@@ -131,6 +131,7 @@ title: Projects
         </p>
         <div class="project-buttons">
         <a href="https://github.com/sh3r4zhassan/VizWhiz" target="_blank">GitHub</a>
+        <a href="/assets/pdfs/VizWhiz.pdf" target="_blank">Report</a>
         </div>
     </div>
   </div>
@@ -167,7 +168,7 @@ title: Projects
       </p>
       <div class="project-buttons">
         <a href="https://github.com/sh3r4zhassan/Gene_Regulatory_Network_Prediction" target="_blank">GitHub</a>
-        <!-- <a href="/assets/pdfs/TinyML_Doorbell_Report.pdf" target="_blank">Report</a> -->
+        <a href="/assets/pdfs/TinyML_Doorbell_Report.pdf" target="_blank">Report</a>
       </div>
     </div>
   </div>
@@ -176,20 +177,16 @@ title: Projects
 
   <div class="project-row">
     <div class="project-image-wrapper">
-        <img src="/assets/images/Plateperfect.jpg" alt="PlatePerfect" class="project-image">
+        <img src="/assets/images/MarchMadness.jpg" alt="PlatePerfect" class="project-image">
     </div>
     <div class="project-text">
       <h3>March Madness</h3>
       <p>
-        PlatePerfect is a computer vision-powered system designed to ensure consistency and quality in restaurant food presentation.
-        Using a YOLOv8-nano model fine-tuned on the UECFOODPIX dataset (10,000+ labeled images), the system segments and classifies
-        ingredients on plated dishes in real time. Deployed through an iPad app with an external camera, the model achieved over
-        68% precision and recall across 101 food classes. By automating visual inspection, PlatePerfect helps reduce manual
-        quality assurance effort and improves consistency across restaurant chains.
+        Built a deep learning pipeline to predict NCAA March Madness basketball outcomes using historical box score data and time-series models. We experimented with MLPs, CNNs, LSTMs, and Transformers, evaluating performance across 60,000+ matchups. Our CNN model achieved the highest accuracy (63.4%) and F1-score (0.66) across validation, while hybrid CNN-LSTM models showed strong generalization. Tested on the 2025 bracket, the models correctly predicted up to 13 of 32 first-round games and revealed challenges in accounting for team seeding and strength of schedule.
       </p>
       <div class="project-buttons">
-        <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank">GitHub</a>
-        <a href="/assets/pdfs/Does_the_plate_look_correct.pdf" target="_blank">Report</a>
+        <!-- <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank">GitHub</a> -->
+        <a href="/assets/pdfs/March_Madness.pdf" target="_blank">Report</a>
       </div>
     </div>
    </div>
