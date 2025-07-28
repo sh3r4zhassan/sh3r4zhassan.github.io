@@ -125,7 +125,7 @@ title: Projects
         <img src="/assets/images/VizWhiz.png" alt="VizWhiz" class="project-image">
     </div>
     <div class="project-text">
-        <h3>VizWhiz</h3>
+        <h3>VizWhiz: A visualization Wizard</h3>
         <p>
         VizWhiz is an interactive web application built with Streamlit for exploratory data analysis. It allows users to upload and analyze any CSV file, offering real-time visual feedback through over 5 plot types including bar charts, box plots, and histograms. The app includes built-in tools for data cleaning, descriptive statistics, and dimensionality reduction (PCA), making it suitable for both novice and advanced users. Tested on datasets with over 50,000 rows, VizWhiz provides responsive performance and is fully browser-based with no local setup required.
         </p>
@@ -146,7 +146,7 @@ title: Projects
     <div class="project-text">
       <h3>EdgeGuard: On-Device Entry System</h3>
       <p>
-        This project implements a smart multi-modal door security system using TinyML, integrating both audio and image inputs for secure and efficient on-device inference. Deployed on the Arduino Nano 33 BLE Sense, the system uses a lightweight MobileNetV2-based student model (α = 0.1) distilled from a larger teacher network (α = 0.35) to detect the presence of a person at the door, achieving 84% image classification accuracy in under 200 KB post-quantized size. Upon detection, the system activates a wake-word listener using a DS-CNN model that operates at 95% accuracy with a compact 46 KB footprint. The system only proceeds to unlock the door if a valid voice command is received, ensuring secure, energy-efficient access control entirely on-device.
+        This project implements a smart multi-modal door security system using TinyML, integrating both audio and image inputs for secure and efficient on-device inference. Deployed on the Arduino Nano 33 BLE Sense, the system uses a lightweight student model distilled from a larger MobileNetV2-based (α = 0.35) teacher network to detect the presence of a person at the door, achieving 84% image classification accuracy in under 200 KB post-quantized size. Upon detection, the system activates a wake-word listener using a DS-CNN model that operates at 95% accuracy with a compact 46 KB footprint. The system only proceeds to unlock the door if a valid voice command is received, ensuring secure, energy-efficient access control entirely on-device.
       </p>
       <!-- <div class="project-buttons"> -->
         <!-- <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank">GitHub</a> -->
@@ -180,7 +180,7 @@ title: Projects
         <img src="/assets/images/MarchMadness.png" alt="PlatePerfect" class="project-image">
     </div>
     <div class="project-text">
-      <h3>March Madness</h3>
+      <h3>March Madness Prediction Network</h3>
       <p>
         Built a deep learning pipeline to predict NCAA March Madness basketball outcomes using historical box score data and time-series models. We experimented with MLPs, CNNs, LSTMs, and Transformers, evaluating performance across 60,000+ matchups. Our CNN model achieved the highest accuracy (63.4%) and F1-score (0.66) across validation, while hybrid CNN-LSTM models showed strong generalization. Tested on the 2025 bracket, the models correctly predicted up to 13 of 32 first-round games and revealed challenges in accounting for team seeding and strength of schedule.
       </p>
