@@ -12,7 +12,8 @@ title: Home
     <h2 style="font-weight: normal; font-size: 1.2em; margin-bottom: 0.6em;"><em>Ph.D. Candidate in Computer Science, Georgia Tech</em></h2>
     <p style="margin: 0.5em 0; font-size: 1.05em;">Machine Learning &bull; Embedded Health Sensing &bull; Wearable Computing</p>
     <p style="margin-top: 1em; font-size: 1.05em; line-height: 1.6;">
-      I’m a PhD student at Georgia Tech in the <strong>Interactive Computing</strong> department. My research combines machine learning, embedded systems, and low-cost wearable hardware for real-time health monitoring and behavioral sensing.
+      I’m a PhD student in Computer Science at the <strong>School of Interactive Computing, Georgia Institute of Technology</strong>, with a background in Electrical Engineering from <strong>Lahore University of Management Sciences</strong>. My research interests sit at the intersection of machine learning, embedded systems, and wearable sensing, with a focus on healthcare applications. I design low-power, resource-constrained systems with multimodal sensing and deploy optimized on-device machine learning (TinyML) for physiological monitoring and inference. Spanning both system design and algorithm deployment, my goal is to enable scalable, cost-effective solutions for continuous sensing and decision-making in real-world environments.
+
     </p>
   </div>
 </div>
@@ -23,42 +24,51 @@ title: Home
     <!-- Left Column: Professional Experience -->
     <div style="flex: 1; min-width: 280px; background: #fff; border: 1px solid #ddd; border-radius: 12px; padding: 1.5em; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
       <h2 style="font-size: 1.6em; margin-bottom: 0.8em;">Professional Experience</h2>
-      
+
       <p style="margin-bottom: 1em;">
         <strong>Graduate Research Assistant</strong><br>
-        <em>Georgia Tech — 2023–Present</em><br>
-        Designing embedded machine learning systems for biosignals and wearable sensing.
+        <em>Georgia Institute of Technology — Sep 2023 – Present</em><br>
+        Designing low-power, embedded systems with multimodal sensing and deploying TinyML for on-device physiological signal processing and health inference.
       </p>
 
       <p style="margin-bottom: 1em;">
         <strong>Research Assistant</strong><br>
-        <em>Smart Data Systems and Applications Lab — 2021–2023</em><br>
-        Developed end-to-end ML pipelines and hardware prototypes for healthcare and smart sensing.
-      </p>
-
-      <p>
-        <strong>Teaching Assistant</strong><br>
-        <em>Artificial Intelligence, Georgia Tech — 2024–Present</em><br>
-        Supported a class of over 900 students with Dr. Thad Starner and Dr. Thomas Ploetz, including office hours and grading.
+        <em>Smart Data Systems and Applications Lab — June 2021 – July 2023</em><br>
+        Built end-to-end ML pipelines and custom hardware prototypes for healthcare and ambient intelligence applications.
       </p>
     </div>
 
-    <!-- Right Column: Education -->
+    <!-- Right Column: Teaching Experience -->
     <div style="flex: 1; min-width: 280px; background: #fff; border: 1px solid #ddd; border-radius: 12px; padding: 1.5em; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-      <h2 style="font-size: 1.6em; margin-bottom: 0.8em;">Education</h2>
+      <h2 style="font-size: 1.6em; margin-bottom: 0.8em;">Teaching Experience</h2>
 
       <p style="margin-bottom: 1em;">
-        <strong>Ph.D. in Computer Science</strong><br>
-        <em>Georgia Institute of Technology — 2023–Present</em><br>
-        Focus in Interactive Computing and Wearable Health Monitoring.
+        <strong>Teaching Assistant – Artificial Intelligence</strong><br>
+        <em>Georgia Institute of Technology — Sep 2025 - Present</em><br>
+        Supported a class of 900+ students led by Dr. Thad Starner and Dr. Thomas Ploetz. Responsibilities included office hours, grading, and technical assistance.
       </p>
 
       <p style="margin-bottom: 1em;">
-        <strong>Bachelor of Science in Computer Engineering</strong><br>
-        <em>LUMS — 2017–2021</em><br>
-        Specialized in embedded systems, machine learning, and computer vision.
+        <strong>Teaching Assistant – Health Sensing and Interventions</strong><br>
+        <em>Georgia Institute of Technology — May 2025 - August 2025</em><br>
+        Supported a class of 900+ students led by Dr. Thad Starner and Dr. Thomas Ploetz. Responsibilities included office hours, grading, and technical assistance.
+      </p>
+
+      <p style="margin-bottom: 1em;">
+        <strong>Teaching Assistant – Artificial Intelligence</strong><br>
+        <em>Georgia Institute of Technology — Jan 2024 – May 2025</em><br>
+        Supported a class of 900+ students led by Dr. Thad Starner and Dr. Thomas Ploetz. Responsibilities included office hours, grading, and technical assistance.
+      </p>
+
+      <p>
+        <strong>Teaching Assistant – Introductory Engineering Laboratory</strong><br>
+        <em>Lahore University of Management Sciences — Sep 2022–Dec 2022</em><br>
+        Assisted in a lab-based course with 60 students, providing hands-on support for lab tasks and guiding students through their engineering projects.
       </p>
     </div>
 
   </div>
 </div>
+
+<!-- Left Column: Work & Research Experience -->
+
