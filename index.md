@@ -11,14 +11,14 @@ title: Home
     <h1 style="font-size: 2.2em; margin-bottom: 0.3em;">Sheraz Hassan</h1>
     <h2 style="font-weight: normal; font-size: 1.2em; margin-bottom: 0.6em;"><em>Ph.D. Candidate in Computer Science</em></h2>
     <!-- <p style="margin: 0.5em 0; font-size: 1.05em;">Machine Learning &bull; Embedded Health Sensing &bull; Wearable Computing</p> -->
-    <p style="margin-top: 1em; font-size: 1.05em; line-height: 1.6;">
+    <p style="margin-top: 1em; font-size: 1.05em; line-height: 1.6;text-align: justify;">
       I’m a CS PhD student at the School of Interactive Computing, <strong>Georgia Institute of Technology</strong>, with a background in Electrical Engineering from <strong>Lahore University of Management Sciences</strong>. My research interests sit at the intersection of machine learning, embedded systems, and wearable sensing, with a focus on healthcare applications. I design low-power, resource-constrained systems with multimodal sensing and deploy optimized on-device machine learning (TinyML) for physiological monitoring and inference. Spanning both system design and algorithm deployment, my goal is to enable scalable, cost-effective solutions for continuous sensing and decision making in real world environments.
     </p>
   </div>
 </div>
 
 <div style=" padding: 0 1em;">
-  <div style="display: flex; flex-wrap: wrap; gap: 2em; align-items: stretch;">
+  <div style="display: flex; flex-wrap: wrap; gap: 2em; align-items: stretch;text-align: justify;">
 
     <!-- Left Column: Professional Experience -->
     <div style="flex: 1; min-width: 280px; background: #fff; border: 1px solid #ddd; border-radius: 12px; padding: 1.5em; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
@@ -77,5 +77,5 @@ title: Home
   </div>
 </div>
 
-<!-- Left Column: Work & Research Experience -->
+
 

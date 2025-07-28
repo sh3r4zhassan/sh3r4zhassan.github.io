@@ -7,7 +7,7 @@ title: Projects
   .project-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2em 1em;
+    padding: 1em 1em 1em;
   }
 
   .project-row {
@@ -110,7 +110,7 @@ title: Projects
         PlatePerfect is a computer vision-powered system designed to ensure consistency and quality in restaurant food presentation.
         Using a YOLOv8-nano model fine-tuned on the UECFOODPIX dataset (10,000+ labeled images), the system segments and classifies
         ingredients on plated dishes in real time. Deployed through an iPad app with an external camera, the model achieved over
-        <strong>68% precision and recall</strong> across 101 food classes. By automating visual inspection, PlatePerfect helps reduce manual
+        68% precision and recall across 101 food classes. By automating visual inspection, PlatePerfect helps reduce manual
         quality assurance effort and improves consistency across restaurant chains.
       </p>
       <div class="project-buttons">
