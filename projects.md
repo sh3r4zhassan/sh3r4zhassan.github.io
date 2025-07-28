@@ -90,7 +90,7 @@ title: Projects
 <div class="project-row">
   <div class="project-image-wrapper">
     <a href="https://github.com/your/tinyml-doorbell" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/doorbell.png" alt="Smart Doorbell" class="project-image">
+      <img src="/assets/images/profile.jpg" alt="Smart Doorbell" class="project-image">
     </a>
   </div>
   <div class="project-text">
