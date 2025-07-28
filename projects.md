@@ -100,9 +100,7 @@ title: Projects
 
   <div class="project-row">
     <div class="project-image-wrapper">
-      <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/images/Plateperfect.jpg" alt="PlatePerfect" class="project-image">
-      </a>
+      <img src="/assets/images/Plateperfect.jpg" alt="PlatePerfect" class="project-image">
     </div>
     <div class="project-text">
       <h3>PlatePerfect</h3>
@@ -124,30 +122,26 @@ title: Projects
 
   <div class="project-row even-row">
     <div class="project-image-wrapper">
-      <a href="https://github.com/your/tinyml-doorbell" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/images/profile.jpg" alt="Smart Doorbell" class="project-image">
-      </a>
+        <img src="/assets/images/VizWhiz.jpg" alt="VizWhiz" class="project-image">
     </div>
     <div class="project-text">
-      <h3>VizWhiz</h3>
-      <p>
-        This project uses knowledge distillation to deploy lightweight audio and image classifiers on the Nano BLE.
-        It supports multi-tenant access and operates with low-power edge inference. Designed for private entry alerts in shared homes.
-      </p>
-      <div class="project-buttons">
-        <a href="https://github.com/your/tinyml-doorbell" target="_blank">GitHub</a>
-        <a href="/assets/pdfs/TinyML_Doorbell_Report.pdf" target="_blank">Report</a>
-      </div>
+        <h3>VizWhiz</h3>
+        <p>
+        VizWhiz is an interactive web application built with Streamlit for exploratory data analysis. It allows users to upload and analyze any CSV file, offering real-time visual feedback through over 15 plot types including bar charts, scatter plots, and heatmaps. 
+        The app includes built-in tools for data cleaning, descriptive statistics, and dimensionality reduction (PCA), making it suitable for both novice and advanced users. Tested on datasets with over 50,000 rows, VizWhiz provides responsive performance and is fully browser-based with no local setup required.
+        </p>
+        <div class="project-buttons">
+        <a href="https://github.com/sh3r4zhassan/VizWhiz" target="_blank">GitHub</a>
+        </div>
     </div>
   </div>
+
 
   <div class="project-divider"></div>
 
   <div class="project-row">
     <div class="project-image-wrapper">
-      <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank" rel="noopener noreferrer">
         <img src="/assets/images/Plateperfect.jpg" alt="PlatePerfect" class="project-image">
-      </a>
     </div>
     <div class="project-text">
       <h3>Smart Doorbell with TinyML</h3>
@@ -169,12 +163,10 @@ title: Projects
 
   <div class="project-row even-row">
     <div class="project-image-wrapper">
-      <a href="https://github.com/your/tinyml-doorbell" target="_blank" rel="noopener noreferrer">
         <img src="/assets/images/profile.jpg" alt="Smart Doorbell" class="project-image">
-      </a>
     </div>
     <div class="project-text">
-      <h3>March Madness</h3>
+      <h3>Gene Regulatory Network Prediction</h3>
       <p>
         This project uses knowledge distillation to deploy lightweight audio and image classifiers on the Nano BLE.
         It supports multi-tenant access and operates with low-power edge inference. Designed for private entry alerts in shared homes.
@@ -190,12 +182,10 @@ title: Projects
 
   <div class="project-row">
     <div class="project-image-wrapper">
-      <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank" rel="noopener noreferrer">
         <img src="/assets/images/Plateperfect.jpg" alt="PlatePerfect" class="project-image">
-      </a>
     </div>
     <div class="project-text">
-      <h3>Gene Regulatory Network Prediction</h3>
+      <h3>March Madness</h3>
       <p>
         PlatePerfect is a computer vision-powered system designed to ensure consistency and quality in restaurant food presentation.
         Using a YOLOv8-nano model fine-tuned on the UECFOODPIX dataset (10,000+ labeled images), the system segments and classifies
