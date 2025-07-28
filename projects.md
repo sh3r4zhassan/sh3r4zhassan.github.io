@@ -12,9 +12,10 @@ title: Projects
 
   .project-row {
     display: flex;
-    align-items: stretch; /* Ensures equal height */
+    align-items: stretch;
     gap: 2em;
     margin-bottom: 4em;
+    flex-wrap: wrap;
   }
 
   .even-row {
@@ -33,6 +34,10 @@ title: Projects
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .project-text p {
+    text-align: justify;
   }
 
   .project-image {
