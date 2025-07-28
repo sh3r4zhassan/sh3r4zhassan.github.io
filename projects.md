@@ -177,7 +177,7 @@ title: Projects
 
   <div class="project-row">
     <div class="project-image-wrapper">
-        <img src="/assets/images/MarchMadness.jpg" alt="PlatePerfect" class="project-image">
+        <img src="/assets/images/MarchMadness.png" alt="PlatePerfect" class="project-image">
     </div>
     <div class="project-text">
       <h3>March Madness</h3>
