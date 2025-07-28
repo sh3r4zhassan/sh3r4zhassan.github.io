@@ -4,7 +4,7 @@ title: Projects
 ---
 
 <style>
-  .projects-container {
+  .project-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2em 1em;
@@ -14,24 +14,33 @@ title: Projects
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 2em;
-    margin: 3em 0;
+    margin-bottom: 4em;
+    flex-wrap: nowrap;
   }
 
-  .project-row:nth-of-type(even) {
+  .even-row {
     flex-direction: row-reverse;
   }
 
   .project-image-wrapper,
   .project-text {
-    flex: 1 1 50%;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .project-image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .project-image {
     width: 100%;
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
+    object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     transition: transform 0.2s ease;
   }
@@ -46,7 +55,7 @@ title: Projects
   }
 
   .project-buttons {
-    margin-top: 0.8em;
+    margin-top: 1em;
   }
 
   .project-buttons a {
@@ -58,14 +67,11 @@ title: Projects
     font-size: 0.85rem;
     text-decoration: none;
     border-radius: 6px;
-    border: 1px solid #ccc;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
-    transition: background-color 0.2s, color 0.2s;
+    transition: background-color 0.2s;
   }
 
   .project-buttons a:hover {
-    background-color: #e6e6e6;
-    color: #0077cc;
+    background-color: #ddd;
   }
 
   @media (max-width: 768px) {
@@ -73,14 +79,20 @@ title: Projects
       flex-direction: column !important;
     }
 
-    .project-image-wrapper,
-    .project-text {
-      flex: 1 1 100%;
+    .project-image {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .project-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5em;
     }
   }
 </style>
 
-<div class="projects-container">
+<div class="project-container">
 
   <div class="project-row">
     <div class="project-image-wrapper">
@@ -91,44 +103,41 @@ title: Projects
     <div class="project-text">
       <h3>PlatePerfect</h3>
       <p>
-        PlatePerfect is a computer vision-powered system designed to ensure consistency and quality in restaurant food presentation. 
-        Using a YOLOv8-nano model fine-tuned on the UECFOODPIX dataset (10,000+ labeled images), the system segments and classifies 
-        ingredients on plated dishes in real time. Deployed through an iPad app with an external camera, the model achieved over 
-        68% precision and recall across 101 food classes. By automating visual inspection, PlatePerfect helps reduce manual 
-        quality assurance effort, streamline operations, and improve customer satisfaction.
+        PlatePerfect is a computer vision-powered system designed to ensure consistency and quality in restaurant food presentation.
+        Using a YOLOv8-nano model fine-tuned on the UECFOODPIX dataset (10,000+ labeled images), the system segments and classifies
+        ingredients on plated dishes in real time. Deployed through an iPad app with an external camera, the model achieved over
+        <strong>68% precision and recall</strong> across 101 food classes. By automating visual inspection, PlatePerfect helps reduce manual
+        quality assurance effort and improves consistency across restaurant chains.
       </p>
       <div class="project-buttons">
-        <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank">GitHub</a>
-        <a href="/assets/pdfs/Does_the_plate_look_correct.pdf" target="_blank">Report</a>
+        <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="/assets/pdfs/Does_the_plate_look_correct.pdf" target="_blank" rel="noopener noreferrer">Report</a>
       </div>
     </div>
   </div>
 
   <div class="project-divider"></div>
 
-  <div class="project-row">
+  <div class="project-row even-row">
     <div class="project-image-wrapper">
       <a href="https://github.com/your/tinyml-doorbell" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/images/doorbell.png" alt="Smart Doorbell" class="project-image">
+        <img src="/assets/images/profile.jpg" alt="Smart Doorbell" class="project-image">
       </a>
     </div>
     <div class="project-text">
       <h3>Smart Doorbell with TinyML</h3>
       <p>
-        Deployed multi-tenant models using knowledge distillation to enable low-power audio and visual classification on the Arduino Nano BLE Sense. 
-        The system recognizes visitors through real-time alerts and image/audio inference on-device without sending data to the cloud.
+        This project uses knowledge distillation to deploy lightweight audio and image classifiers on the Nano BLE.
+        It supports multi-tenant access and operates with low-power edge inference. Designed for private entry alerts in shared homes.
       </p>
       <div class="project-buttons">
-        <a href="https://github.com/your/tinyml-doorbell" target="_blank">GitHub</a>
-        <a href="/assets/pdfs/TinyML_Doorbell_Report.pdf" target="_blank">Report</a>
+        <a href="https://github.com/your/tinyml-doorbell" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="/assets/pdfs/TinyML_Doorbell_Report.pdf" target="_blank" rel="noopener noreferrer">Report</a>
       </div>
     </div>
   </div>
 
-  <div class="project-divider"></div>
-
 </div>
-
 
 
 
