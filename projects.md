@@ -141,17 +141,17 @@ title: Projects
 
   <div class="project-row">
     <div class="project-image-wrapper">
-        <img src="/assets/images/Plateperfect.jpg" alt="PlatePerfect" class="project-image">
+        <img src="/assets/images/EdgeGuard.png" alt="PlatePerfect" class="project-image">
     </div>
     <div class="project-text">
-      <h3>Smart Doorbell with TinyML</h3>
+      <h3>EdgeGuard: On-Device Entry System</h3>
       <p>
-        This project implements a low-power doorbell system using the Nano BLE Sense and TinyML. Lightweight image and audio models were deployed through knowledge distillation to detect visitors and notify residents. Designed for multi-tenant homes, the system supports secure, edge-based inference and runs fully offline. Tested in real-world settings, it demonstrates responsive performance with minimal power consumption.
+        This project implements a smart multi-modal door security system using TinyML, integrating both audio and image inputs for secure and efficient on-device inference. Deployed on the Arduino Nano 33 BLE Sense, the system uses a lightweight MobileNetV2-based student model (α = 0.1) distilled from a larger teacher network (α = 0.35) to detect the presence of a person at the door, achieving 84% image classification accuracy in under 200 KB post-quantized size. Upon detection, the system activates a wake-word listener using a DS-CNN model that operates at 95% accuracy with a compact 46 KB footprint. The system only proceeds to unlock the door if a valid voice command is received, ensuring secure, energy-efficient access control entirely on-device.
       </p>
-      <div class="project-buttons">
-        <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank">GitHub</a>
-        <a href="/assets/pdfs/Does_the_plate_look_correct.pdf" target="_blank">Report</a>
-      </div>
+      <!-- <div class="project-buttons"> -->
+        <!-- <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank">GitHub</a> -->
+        <!-- <a href="/assets/pdfs/Does_the_plate_look_correct.pdf" target="_blank">Report</a> -->
+      <!-- </div> -->
     </div>
   </div>
 
