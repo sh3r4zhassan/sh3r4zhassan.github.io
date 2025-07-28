@@ -5,7 +5,7 @@ title: Home
 
 <div style="display: flex; flex-wrap: wrap; align-items: flex-end; gap: 3em;  padding: 2em 1em;">
   <div style="flex: 0 0 300px;">
-    <img src="/assets/profile.jpg" alt="Sheraz Hassan" style="width: 100%; border-radius: 12px; object-fit: cover;">
+    <img src="/assets/images/profile.jpg" alt="Sheraz Hassan" style="width: 100%; border-radius: 12px; object-fit: cover;">
   </div>
   <div style="flex: 1; align-self: flex-end;">
     <h1 style="font-size: 2.2em; margin-bottom: 0.3em;">Sheraz Hassan</h1>

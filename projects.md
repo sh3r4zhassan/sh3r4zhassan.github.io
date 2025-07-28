@@ -79,15 +79,15 @@ title: Projects
 <div class="project-row">
   <div class="project-image-wrapper">
     <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/plateperfect.jpg" alt="PlatePerfect" class="project-image">
+      <img src="/assets/images/Plateperfect.jpg" alt="PlatePerfect" class="project-image">
     </a>
   </div>
   <div class="project-text">
     <h3>PlatePerfect</h3>
     <p>Trained YOLOv8 to classify and verify plated food items in restaurant settings.</p>
     <div class="project-buttons">
-      <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank">GitHub</a>
-      <a href="/assets/pdfs/PlatePerfect_Report.pdf" target="_blank">Report</a>
+      <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="/assets/pdfs/Does_the_plate_look_correct.pdf" target="_blank" rel="noopener noreferrer">Report</a>
     </div>
   </div>
 </div>
