@@ -113,7 +113,7 @@ title: Projects
       </p>
       <div class="project-buttons">
         <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank">GitHub</a>
-        <a href="/assets/pdfs/Does_the_plate_look_correct.pdf" target="_blank">Report</a>
+        <a href="/assets/pdfs/PlatePerfect.pdf" target="_blank">Report</a>
       </div>
     </div>
   </div>
@@ -168,7 +168,7 @@ title: Projects
       </p>
       <div class="project-buttons">
         <a href="https://github.com/sh3r4zhassan/Gene_Regulatory_Network_Prediction" target="_blank">GitHub</a>
-        <a href="/assets/pdfs/TinyML_Doorbell_Report.pdf" target="_blank">Report</a>
+        <!-- <a href="/assets/pdfs/TinyML_Doorbell_Report.pdf" target="_blank">Report</a> -->
       </div>
     </div>
   </div>
