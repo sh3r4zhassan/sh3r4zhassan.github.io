@@ -12,35 +12,34 @@ title: Projects
 
   .project-row {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: stretch; /* Ensures equal height */
     gap: 2em;
     margin-bottom: 4em;
-    flex-wrap: nowrap;
   }
 
   .even-row {
     flex-direction: row-reverse;
   }
 
-  .project-image-wrapper,
-  .project-text {
-    flex: 1;
-    min-width: 0;
-  }
-
   .project-image-wrapper {
+    flex: 0 0 30%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
+  .project-text {
+    flex: 0 0 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .project-image {
     width: 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+    height: 100%;
     object-fit: cover;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     transition: transform 0.2s ease;
   }
@@ -79,15 +78,13 @@ title: Projects
       flex-direction: column !important;
     }
 
-    .project-image {
-      width: 100%;
-      max-width: 100%;
+    .project-image-wrapper,
+    .project-text {
+      flex: 1 1 100%;
     }
 
-    .project-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5em;
+    .project-image {
+      height: auto;
     }
   }
 </style>
@@ -110,8 +107,8 @@ title: Projects
         quality assurance effort and improves consistency across restaurant chains.
       </p>
       <div class="project-buttons">
-        <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="/assets/pdfs/Does_the_plate_look_correct.pdf" target="_blank" rel="noopener noreferrer">Report</a>
+        <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank">GitHub</a>
+        <a href="/assets/pdfs/Does_the_plate_look_correct.pdf" target="_blank">Report</a>
       </div>
     </div>
   </div>
@@ -131,14 +128,13 @@ title: Projects
         It supports multi-tenant access and operates with low-power edge inference. Designed for private entry alerts in shared homes.
       </p>
       <div class="project-buttons">
-        <a href="https://github.com/your/tinyml-doorbell" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="/assets/pdfs/TinyML_Doorbell_Report.pdf" target="_blank" rel="noopener noreferrer">Report</a>
+        <a href="https://github.com/your/tinyml-doorbell" target="_blank">GitHub</a>
+        <a href="/assets/pdfs/TinyML_Doorbell_Report.pdf" target="_blank">Report</a>
       </div>
     </div>
   </div>
 
 </div>
-
 
 
 
