@@ -8,17 +8,29 @@ Projects and Publications
 
 ## Projects
 
-### Smart Doorbell with TinyML
-Deployed multi-tenant models using knowledge distillation for audio/image inference on Nano BLE.
+### SkinSpex
+abcdd
+
+
+### Puffpacket
+puffpacket heere
+
+### TinyML Benchmarking for Edge Devices
+Created benchmark suite for image/audio tasks on microcontrollers using quantization-aware training.
+
+### STEF-DHNET
+abcddd
+
 
 ### Heart Rate Estimation using RKF & ELM
 Real-time low-power algorithm for heart rate estimation from wearable PPG sensors.
 
-### YOLOv8 Food QA System
-Trained YOLOv8 to classify and verify plated food items in restaurant settings.
+### Robustness of Heart rate estimation
+abcdd 
 
-### TinyML Benchmarking for Edge Devices
-Created benchmark suite for image/audio tasks on microcontrollers using quantization-aware training.
+### Human activity sensing
+abcdd 
+
 
 ## Publications
 
@@ -26,5 +38,5 @@ Created benchmark suite for image/audio tasks on microcontrollers using quantiza
 
 **Sheraz Hassan, Author2.** "Another Publication Title." *Journal Name*, 2024. [PDF](#) [BibTeX](#)
 
-*More coming soon...*
+**Sheraz Hassan, Author2.** "Another Publication Title." *Journal Name*, 2024. [PDF](#) [BibTeX](#)
 

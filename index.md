@@ -27,13 +27,13 @@ title: Home
       <p style="margin-bottom: 1.2em;">
         <strong>Graduate Research Assistant</strong><br>
         <span style="color: #555;"><strong>Georgia Institute of Technology</strong> &mdash; Sep 2023 – Present</span><br>
-        Designing low-cost, embedded systems for wearable health monitoring using multimodal sensors and microcontrollers. Deploying resource-efficient machine learning (TinyML) on edge hardware for physiological signal processing and behavioral inference.
+        Designing low-cost, embedded systems for wearable health monitoring using multimodal sensors and microcontrollers. Deploying resource-efficient machine learning (TinyML) on edge hardware for physiological signal processing and inference.
       </p>
 
       <p style="margin-bottom: 1.2em;">
         <strong>Research Assistant</strong><br>
         <span style="color: #555;"><strong>Smart Data Systems and Applications Lab (SDSA)</strong> &mdash; Jun 2021 – Jul 2023</span><br>
-        Developed end-to-end ML pipelines and hardware prototypes for healthcare, including real-time activity monitoring and biomedical signal processing. Led projects on heart rate estimation, sound classification, and sensor fusion for context-aware systems.
+        Developed end-to-end ML pipelines and hardware prototypes for healthcare, including real-time activity monitoring and biomedical signal processing. Also led projects on heart rate estimation, sound classification, and demand prediction for ride hailing services.
       </p>
 
       <p>
