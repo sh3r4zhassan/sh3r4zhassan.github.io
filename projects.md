@@ -6,53 +6,61 @@ title: Projects
 <style>
   .project-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 2em;
     margin: 3em 0;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
     flex-wrap: wrap;
   }
 
-  .project-row:nth-child(even) {
+  .project-row:nth-of-type(even) {
     flex-direction: row-reverse;
   }
 
   .project-text {
     flex: 1;
-  }
-
-  .project-text h3 {
-    margin-bottom: 0.5em;
-  }
-
-  .project-text p {
-    margin: 0;
-    font-size: 0.95rem;
+    min-width: 250px;
   }
 
   .project-image-wrapper {
     flex: 1;
-    max-width: 400px;
+    max-width: 300px;
   }
 
   .project-image {
     width: 100%;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     transition: transform 0.2s ease;
   }
 
   .project-image:hover {
-    transform: scale(1.02);
+    transform: scale(1.03);
   }
 
   .project-divider {
-    max-width: 1200px;
-    margin: 2em auto;
-    border-top: 1.5px dotted #f1f1f1;
+    border-top: 1.5px dashed #bbb;
+    margin: 2.5em 0;
+  }
+
+  .project-buttons {
+    margin-top: 0.6em;
+  }
+
+  .project-buttons a {
+    display: inline-block;
+    margin-right: 0.8em;
+    padding: 0.4em 0.9em;
+    background-color: #0077cc;
+    color: white;
+    font-size: 0.85rem;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+  }
+
+  .project-buttons a:hover {
+    background-color: #005fa3;
   }
 
   @media (max-width: 768px) {
@@ -60,7 +68,7 @@ title: Projects
       flex-direction: column !important;
     }
 
-    .project-image-wrapper {
+    .project-image-wrapper, .project-text {
       max-width: 100%;
     }
   }
@@ -71,12 +79,16 @@ title: Projects
 <div class="project-row">
   <div class="project-image-wrapper">
     <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/profile.jpg" alt="PlatePerfect" class="project-image">
+      <img src="/assets/images/plateperfect.jpg" alt="PlatePerfect" class="project-image">
     </a>
   </div>
   <div class="project-text">
     <h3>PlatePerfect</h3>
     <p>Trained YOLOv8 to classify and verify plated food items in restaurant settings.</p>
+    <div class="project-buttons">
+      <a href="https://github.com/sh3r4zhassan/PlatePerfect" target="_blank">GitHub</a>
+      <a href="/assets/pdfs/PlatePerfect_Report.pdf" target="_blank">Report</a>
+    </div>
   </div>
 </div>
 
@@ -91,9 +103,18 @@ title: Projects
   <div class="project-text">
     <h3>Smart Doorbell with TinyML</h3>
     <p>Deployed multi-tenant models using knowledge distillation for audio/image inference on Nano BLE.</p>
+    <div class="project-buttons">
+      <a href="https://github.com/your/tinyml-doorbell" target="_blank">GitHub</a>
+      <a href="/assets/pdfs/TinyML_Doorbell_Report.pdf" target="_blank">Report</a>
+    </div>
   </div>
 </div>
 
+<div class="project-divider"></div>
+
+<!-- Repeat structure above for other projects like Vizwhiz, Gene Regulatory Network, etc. -->
+
+<!-- 
 <div class="project-divider"></div>
 
 <div class="project-row">
@@ -136,4 +157,4 @@ title: Projects
   </div>
 </div>
 
-<div class="project-divider"></div>
+<div class="project-divider"></div> -->
