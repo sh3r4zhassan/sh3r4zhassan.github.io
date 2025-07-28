@@ -12,7 +12,7 @@ title: Projects
     flex-wrap: wrap;
   }
 
-  .project-row:nth-of-type(even) {
+  .even-row {
     flex-direction: row-reverse;
   }
 
@@ -46,7 +46,7 @@ title: Projects
     display: inline-block;
     margin-right: 0.8em;
     padding: 0.4em 0.9em;
-    background-color: #f1f1f1; /* matches pill bar */
+    background-color: #f1f1f1;
     color: #222;
     font-size: 0.85rem;
     text-decoration: none;
@@ -87,7 +87,7 @@ title: Projects
 
 <div class="project-divider"></div>
 
-<div class="project-row">
+<div class="project-row even-row">
   <div class="project-image-wrapper">
     <a href="https://github.com/your/tinyml-doorbell" target="_blank" rel="noopener noreferrer">
       <img src="/assets/images/profile.jpg" alt="Smart Doorbell" class="project-image">
@@ -105,6 +105,7 @@ title: Projects
 </div>
 
 <div class="project-divider"></div>
+
 
 
 
