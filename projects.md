@@ -182,7 +182,7 @@ title: Projects
   <div class="project-text">
     <h3>SoundIQ: A Sound Prediction & Cancellation System</h3>
     <p>
-      Built a two-stage pipeline for environmental sound classification and real-time active noise cancellation. A custom 7-layer CNN—comprising three convolutional layers, max-pooling, dropout, and dense layers—was trained on the UrbanSound8K dataset and achieved 85.75% accuracy on 10 environmental classes. Based on classification, a Python-Simulink interface selected pre-trained adaptive filters for cancellation. The full system visualizes and analyzes input vs. output sound pressure levels, enabling context-aware suppression of urban and environmental noise.
+      Built a two-stage pipeline for environmental sound classification and real-time active noise cancellation. A custom CNN was trained on the UrbanSound8K dataset and achieved 85.75% accuracy on 10 environmental classes. Based on classification, a Python-Simulink interface selected pre-trained adaptive filters for cancellation. The full system visualizes and analyzes input vs. output sound pressure levels, enabling context-aware suppression of urban and environmental noise.
     </p>
     <div class="project-buttons">
       <a href="https://github.com/sh3r4zhassan/Sound-Prediction-and-Cancellation-Model" target="_blank">GitHub</a>
