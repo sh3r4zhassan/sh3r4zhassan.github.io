@@ -12,10 +12,10 @@ title: Research
 
   .research-row {
     display: flex;
-    align-items: stretch;
     gap: 2em;
     margin-bottom: 4em;
-    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
   }
 
   .even-row {
@@ -38,6 +38,7 @@ title: Research
 
   .research-text p {
     text-align: justify;
+    margin-top: 0.5em;
   }
 
   .research-image {
@@ -225,7 +226,7 @@ title: Research
 
   <ul style="font-size: 1.05em; line-height: 1.6; margin-top: 1em;">
 <li>
-  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aNlZoQwAAAAJ&citation_for_view=aNlZoQwAAAAJ:u-x6o8ySG0sC" target="_blank" style="color: inherit; text-decoration: none;">
+  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aNlZoQwAAAAJ&citation_for_view=aNlZoQwAAAAJ:u-x6o8ySG0sC" target="_blank" style="color: #1a0dab; text-decoration: none;">
     <em>“PuffEM: An E-cigarette Sleeve for Estimating User Nicotine Intake.”</em>
   </a>
   Yiyang Wang, Rishabh Goel, <strong>Sheraz Hassan</strong>, Taegen J Doscher, Shilin Wang, Lexington Allen Whalen, Aditya S Gandhi, Yaman S Sangar, Alex Cabral, Xuhai Xu, Josiah Hester, Alexander T Adams.  
@@ -233,7 +234,7 @@ title: Research
 </li>
 
 <li>
-  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aNlZoQwAAAAJ&citation_for_view=aNlZoQwAAAAJ:u5HHmVD_uO8C" target="_blank" style="color: inherit; text-decoration: none;">
+  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aNlZoQwAAAAJ&citation_for_view=aNlZoQwAAAAJ:u5HHmVD_uO8C" target="_blank" style="color: #1a0dab; text-decoration: none;">
     <em>“STEF-DHNet: Spatiotemporal External Factors Based Deep Hybrid Network for Enhanced Long-Term Taxi Demand Prediction.”</em>
   </a>
   <strong>Sheraz Hassan</strong>, Muhammad Tahir, Momin Uppal, Zubair Khalid, Ivan Gorban, Selim Turki.  
