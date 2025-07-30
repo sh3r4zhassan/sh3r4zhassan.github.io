@@ -101,6 +101,7 @@ title: Research
 </style>
 
 <div class="research-container">
+  <h2 style="margin-bottom: 1em; font-size: 1.5em;">Selected Research</h2>
 
   <div class="research-row">
     <div class="research-image-wrapper">
