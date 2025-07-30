@@ -129,7 +129,7 @@ title: Research
         A wearable acoustic sensing system for automatic detection of smoking and vaping episodes. Developed robust ML pipelines using IMU and microphone signals for free-living inference on embedded systems.
       </p>
       <div class="research-buttons">
-        <a href="#">Details</a>
+        <a href="#puffem-paper">Paper</a>
       </div>
     </div>
   </div>
@@ -146,7 +146,7 @@ title: Research
         Designed a benchmark suite for evaluating classification models on microcontrollers using quantization-aware training. Benchmarked performance, memory, and latency across datasets and deployment targets.
       </p>
       <div class="research-buttons">
-        <a href="#">Details</a>
+        <a href="#">Blog</a>
       </div>
     </div>
   </div>
@@ -163,7 +163,7 @@ title: Research
         Built a deep hybrid network for activity recognition using sequential transformer blocks fused with CNNs. Applied to multimodal human activity datasets and optimized for on-device deployment.
       </p>
       <div class="research-buttons">
-        <a href="#">Details</a>
+        <a href="#stef-paper">Paper</a>
       </div>
     </div>
   </div>
@@ -180,7 +180,7 @@ title: Research
         Developed a real-time pipeline for heart rate estimation using PPG sensors. Combined recursive Kalman filtering with Extreme Learning Machines for lightweight signal tracking under noise.
       </p>
       <div class="research-buttons">
-        <a href="#">Details</a>
+        <a href="#">Blog</a>
       </div>
     </div>
   </div>
@@ -197,27 +197,12 @@ title: Research
         Evaluated performance of wearable HR estimation pipelines under varying lighting, motion, and sensor conditions. Conducted robustness analysis across 5+ experimental settings to guide model generalizability.
       </p>
       <div class="research-buttons">
-        <a href="#">Details</a>
+        <a href="#">Blog</a>
       </div>
     </div>
   </div>
 
-  <div class="research-divider"></div>
 
-  <div class="research-row">
-    <div class="research-image-wrapper">
-      <img src="/assets/images/activity.jpg" alt="Activity Recognition" class="research-image">
-    </div>
-    <div class="research-text">
-      <h3>Human Activity Sensing</h3>
-      <p>
-        Designed real-time activity recognition pipeline using IMU and environmental sensors on wrist-worn devices. Implemented gesture-aware filtering and on-device inference to reduce latency and power.
-      </p>
-      <div class="research-buttons">
-        <a href="#">Details</a>
-      </div>
-    </div>
-  </div>
 
 </div>
 
@@ -225,7 +210,7 @@ title: Research
   <h2 style="margin-top: 3em; font-size: 1.5em;">Publications</h2>
 
   <ul style="font-size: 1.05em; line-height: 1.6; margin-top: 1em;">
-<li>
+<li id="puffem-paper">
   <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aNlZoQwAAAAJ&citation_for_view=aNlZoQwAAAAJ:u-x6o8ySG0sC" target="_blank" style="color: #1a0dab; text-decoration: none;">
     <em>“PuffEM: An E-cigarette Sleeve for Estimating User Nicotine Intake.”</em>
   </a>
@@ -233,7 +218,7 @@ title: Research
   <span>ACM/IEEE Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE), 2025.</span>
 </li>
 
-<li>
+<li id="stef-paper">
   <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aNlZoQwAAAAJ&citation_for_view=aNlZoQwAAAAJ:u5HHmVD_uO8C" target="_blank" style="color: #1a0dab; text-decoration: none;">
     <em>“STEF-DHNet: Spatiotemporal External Factors Based Deep Hybrid Network for Enhanced Long-Term Taxi Demand Prediction.”</em>
   </a>
