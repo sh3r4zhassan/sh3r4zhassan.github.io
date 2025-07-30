@@ -112,7 +112,7 @@ title: Research
         A laser speckle imaging system for multi-biomarker monitoring (heart rate, breath, perfusion) from skin. Designed a compact setup and validated against reference sensors for accuracy across different wavelengths and skin sites.
       </p>
       <div class="research-buttons">
-        <a href="#">Details</a>
+        <a href="#">Paper</a>
       </div>
     </div>
   </div>
@@ -193,6 +193,23 @@ title: Research
     </div>
     <div class="research-text">
       <h3>Robustness of HR Estimation</h3>
+      <p>
+        Evaluated performance of wearable HR estimation pipelines under varying lighting, motion, and sensor conditions. Conducted robustness analysis across 5+ experimental settings to guide model generalizability.
+      </p>
+      <div class="research-buttons">
+        <a href="#">Blog</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="research-divider"></div>
+
+  <div class="research-row">
+    <div class="research-image-wrapper">
+      <img src="/assets/images/robustness.jpg" alt="HR Robustness" class="research-image">
+    </div>
+    <div class="research-text">
+      <h3>PPG Motion Artifactts/h3>
       <p>
         Evaluated performance of wearable HR estimation pipelines under varying lighting, motion, and sensor conditions. Conducted robustness analysis across 5+ experimental settings to guide model generalizability.
       </p>
