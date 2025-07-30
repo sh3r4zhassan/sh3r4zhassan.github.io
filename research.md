@@ -7,7 +7,7 @@ title: Research
   .research-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2em 1em;
+    padding: 1em 1em 1em;
   }
 
   .research-row {
@@ -42,7 +42,7 @@ title: Research
 
   .research-image {
     width: 100%;
-    height: 100%;
+    max-height: 300px;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
@@ -64,6 +64,7 @@ title: Research
 
   .research-buttons a {
     display: inline-block;
+    margin-right: 0.8em;
     padding: 0.4em 0.9em;
     background-color: #f1f1f1;
     color: #222;
@@ -75,6 +76,10 @@ title: Research
 
   .research-buttons a:hover {
     background-color: #ddd;
+  }
+  .research-divider {
+    border-top: 1.5px dashed #bbb;
+    margin: 2.5em 0;
   }
 
   @media (max-width: 768px) {
@@ -89,6 +94,7 @@ title: Research
 
     .research-image {
       height: auto;
+      max-height: none;
     }
   }
 </style>
@@ -212,14 +218,18 @@ title: Research
     </div>
   </div>
 
-  <div class="research-divider"></div>
+</div>
 
-  <h2 style="margin-top: 2em;">Publications</h2>
+<div class="research-container">
+  <h2 style="margin-top: 3em; font-size: 1.5em;">Publications</h2>
 
-  <ul style="padding-left: 1.2em; line-height: 1.7;">
-    <li><strong>Author1, Sheraz Hassan, Author3.</strong> "Title of the Paper." <em>Conference Name</em>, 2025.</li>
-    <li><strong>Sheraz Hassan, Author2.</strong> "Another Publication Title." <em>Journal Name</em>, 2024.</li>
-    <li><strong>Sheraz Hassan, Author2.</strong> "Another Publication Title." <em>Journal Name</em>, 2024.</li>
+  <ul style="font-size: 1.05em; line-height: 1.6; margin-top: 1em;">
+    <li>
+      Yiyang Wang, Rishabh Goel, <strong>Sheraz Hassan</strong>, Taegen J Doscher, Shilin Wang, Lexington Allen Whalen, Aditya S Gandhi, Yaman S Sangar, Alex Cabral, Xuhai Xu, Josiah Hester, Alexander T Adams. <em>“PuffEM: An E-cigarette Sleeve for Estimating User Nicotine Intake.”</em> ACM/IEEE CHASE, 2025.
+    </li>
+    <li>
+      <strong>Sheraz Hassan</strong>, Muhammad Tahir, Momin Uppal, Zubair Khalid, Ivan Gorban, Selim Turki. <em>“STEF-DHNet: Spatiotemporal External Factors Based Deep Hybrid Network for Enhanced Long-Term Taxi Demand Prediction.”</em> *arXiv preprint arXiv:2306.14476*, 2023.
+    </li>
+
   </ul>
-
 </div>
