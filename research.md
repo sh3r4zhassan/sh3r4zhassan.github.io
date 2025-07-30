@@ -103,7 +103,7 @@ title: Research
 
   <div class="research-row">
     <div class="research-image-wrapper">
-      <img src="/assets/images/skinspex.jpg" alt="SkinSpex" class="research-image">
+      <img src="/assets/images/Plateperfect.jpg" alt="SkinSpex" class="research-image">
     </div>
     <div class="research-text">
       <h3>SkinSpex</h3>
@@ -224,16 +224,21 @@ title: Research
   <h2 style="margin-top: 3em; font-size: 1.5em;">Publications</h2>
 
   <ul style="font-size: 1.05em; line-height: 1.6; margin-top: 1em;">
-    <li>
-    <em>“PuffEM: An E-cigarette Sleeve for Estimating User Nicotine Intake.”</em>  
-    Yiyang Wang, Rishabh Goel, <strong>Sheraz Hassan</strong>, Taegen J Doscher, Shilin Wang, Lexington Allen Whalen, Aditya S Gandhi, Yaman S Sangar, Alex Cabral, Xuhai Xu, Josiah Hester, Alexander T Adams.  
-    <span>ACM/IEEE Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE), 2025.</span>
-    </li>
-    <li>
-    <em>“STEF-DHNet: Spatiotemporal External Factors Based Deep Hybrid Network for Enhanced Long-Term Taxi Demand Prediction.”</em>  
-    <strong>Sheraz Hassan</strong>, Muhammad Tahir, Momin Uppal, Zubair Khalid, Ivan Gorban, Selim Turki.  
-    <span><em>arXiv preprint arXiv:2306.14476</em>, 2023.</span>
-    </li>
+<li>
+  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aNlZoQwAAAAJ&citation_for_view=aNlZoQwAAAAJ:u-x6o8ySG0sC" target="_blank" style="color: inherit; text-decoration: none;">
+    <em>“PuffEM: An E-cigarette Sleeve for Estimating User Nicotine Intake.”</em>
+  </a>
+  Yiyang Wang, Rishabh Goel, <strong>Sheraz Hassan</strong>, Taegen J Doscher, Shilin Wang, Lexington Allen Whalen, Aditya S Gandhi, Yaman S Sangar, Alex Cabral, Xuhai Xu, Josiah Hester, Alexander T Adams.  
+  <span>ACM/IEEE Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE), 2025.</span>
+</li>
+
+<li>
+  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aNlZoQwAAAAJ&citation_for_view=aNlZoQwAAAAJ:u5HHmVD_uO8C" target="_blank" style="color: inherit; text-decoration: none;">
+    <em>“STEF-DHNet: Spatiotemporal External Factors Based Deep Hybrid Network for Enhanced Long-Term Taxi Demand Prediction.”</em>
+  </a>
+  <strong>Sheraz Hassan</strong>, Muhammad Tahir, Momin Uppal, Zubair Khalid, Ivan Gorban, Selim Turki.  
+  <span><em>*arXiv preprint arXiv:2306.14476*</em>, 2023.</span>
+</li>
 
   </ul>
 </div>
