@@ -105,7 +105,7 @@ title: Research
 
   <div class="research-row">
     <div class="research-image-wrapper">
-      <img src="/assets/images/Plateperfect.jpg" alt="SkinSpex" class="research-image">
+      <img src="/assets/images/Skinspex.png" alt="SkinSpex" class="research-image">
     </div>
     <div class="research-text">
       <h3>SkinSpex</h3>
@@ -122,7 +122,7 @@ title: Research
 
   <div class="research-row even-row">
     <div class="research-image-wrapper">
-      <img src="/assets/images/puffpacket.jpg" alt="PuffPacket" class="research-image">
+      <img src="/assets/images/Puff.png" alt="PuffPacket" class="research-image">
     </div>
     <div class="research-text">
       <h3>PuffPacket</h3>
@@ -156,7 +156,7 @@ title: Research
 
   <div class="research-row even-row">
     <div class="research-image-wrapper">
-      <img src="/assets/images/stef.jpg" alt="STEF-DHNET" class="research-image">
+      <img src="/assets/images/STEF.jpg" alt="STEF-DHNET" class="research-image">
     </div>
     <div class="research-text">
       <h3>STEF-DHNet</h3>
@@ -173,7 +173,7 @@ title: Research
 
   <div class="research-row">
     <div class="research-image-wrapper">
-      <img src="/assets/images/ppg_hr.jpg" alt="PPG HR Estimation" class="research-image">
+      <img src="/assets/images/EKF.png" alt="PPG HR Estimation" class="research-image">
     </div>
     <div class="research-text">
       <h3>Heart Rate Estimation using RKF & ELM</h3>
@@ -190,7 +190,7 @@ title: Research
 
   <div class="research-row even-row">
     <div class="research-image-wrapper">
-      <img src="/assets/images/robustness.jpg" alt="HR Robustness" class="research-image">
+      <img src="/assets/images/Adversarial.jpeg" alt="HR Robustness" class="research-image">
     </div>
     <div class="research-text">
       <h3>Robustness of HR Estimation</h3>
@@ -207,7 +207,7 @@ title: Research
 
   <div class="research-row">
     <div class="research-image-wrapper">
-      <img src="/assets/images/robustness.jpg" alt="HR Robustness" class="research-image">
+      <img src="/assets/images/Motionartifact.png" alt="HR Robustness" class="research-image">
     </div>
     <div class="research-text">
       <h3>PPG Motion Artifacts </h3>
