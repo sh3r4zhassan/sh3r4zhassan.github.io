@@ -139,7 +139,7 @@ title: Research
 
   <div class="research-row">
     <div class="research-image-wrapper">
-      <img src="/assets/images/tinyml_benchmark.jpg" alt="TinyML Benchmarking" class="research-image">
+      <img src="/assets/images/Tiny.png" alt="TinyML Benchmarking" class="research-image">
     </div>
     <div class="research-text">
       <h3>TinyML Benchmarking for Edge Devices</h3>
