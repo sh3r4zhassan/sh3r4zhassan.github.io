@@ -173,7 +173,7 @@ title: Research
 
   <div class="research-row">
     <div class="research-image-wrapper">
-      <img src="/assets/images/EKF.png" alt="PPG HR Estimation" class="research-image">
+      <img src="/assets/images/ELM.png" alt="PPG HR Estimation" class="research-image">
     </div>
     <div class="research-text">
       <h3>Heart Rate Estimation using RKF & ELM</h3>
