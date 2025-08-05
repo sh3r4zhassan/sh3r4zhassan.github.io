@@ -135,22 +135,6 @@ title: Research
     </div>
   </div>
 
-  <div class="research-divider"></div>
-
-  <div class="research-row">
-    <div class="research-image-wrapper">
-      <img src="/assets/images/Tiny.png" alt="TinyML Benchmarking" class="research-image">
-    </div>
-    <div class="research-text">
-      <h3>TinyML Benchmarking for Edge Devices</h3>
-      <p>
-        Designed a benchmark suite for evaluating classification models on microcontrollers using quantization-aware training. Benchmarked performance, memory, and latency across datasets and deployment targets.
-      </p>
-      <div class="research-buttons">
-        <a href="#">Blog</a>
-      </div>
-    </div>
-  </div>
 
   <div class="research-divider"></div>
 
@@ -168,6 +152,25 @@ title: Research
       </div>
     </div>
   </div>
+
+
+  <div class="research-divider"></div>
+
+  <div class="research-row">
+    <div class="research-image-wrapper">
+      <img src="/assets/images/Tiny.png" alt="TinyML Benchmarking" class="research-image">
+    </div>
+    <div class="research-text">
+      <h3>TinyML Benchmarking for Edge Devices</h3>
+      <p>
+        Designed a benchmark suite for evaluating classification models on microcontrollers using quantization-aware training. Benchmarked performance, memory, and latency across datasets and deployment targets.
+      </p>
+      <div class="research-buttons">
+        <a href="#">Blog</a>
+      </div>
+    </div>
+  </div>
+
 
   <div class="research-divider"></div>
 
@@ -207,7 +210,7 @@ title: Research
 
   <div class="research-row">
     <div class="research-image-wrapper">
-      <img src="/assets/images/Motionartifact.png" alt="HR Robustness" class="research-image">
+      <img src="/assets/images/Motionartifacts.png" alt="HR Robustness" class="research-image">
     </div>
     <div class="research-text">
       <h3>PPG Motion Artifacts </h3>
