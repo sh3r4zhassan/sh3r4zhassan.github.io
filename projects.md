@@ -51,7 +51,7 @@ title: Projects
   }
 
   .project-image:hover {
-    transform: scale(1.03);
+    transform: scale(2.2);
   }
 
   .project-buttons {
