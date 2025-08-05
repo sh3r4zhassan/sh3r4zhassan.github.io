@@ -138,7 +138,7 @@ title: Research
 
   <div class="research-divider"></div>
 
-  <div class="research-row even-row">
+  <div class="research-row">
     <div class="research-image-wrapper">
       <img src="/assets/images/STEF.jpg" alt="STEF-DHNET" class="research-image">
     </div>
@@ -156,7 +156,7 @@ title: Research
 
   <div class="research-divider"></div>
 
-  <div class="research-row">
+  <div class="research-row even-row">
     <div class="research-image-wrapper">
       <img src="/assets/images/Tiny.png" alt="TinyML Benchmarking" class="research-image">
     </div>
