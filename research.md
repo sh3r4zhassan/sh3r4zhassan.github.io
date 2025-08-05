@@ -51,7 +51,7 @@ title: Research
   }
 
   .research-image:hover {
-    transform: scale(2.20);
+    transform: scale(1.20);
   }
 
   .research-divider {
