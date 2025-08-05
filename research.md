@@ -101,7 +101,7 @@ title: Research
 </style>
 
 <div class="research-container">
-  <h2 style="margin-bottom: 1em; font-size: 1.5em;">Selected Research</h2>
+<h2 style="margin-bottom: 1em; font-size: 2.2em; text-align: center;">Selected Research</h2>
 
   <div class="research-row">
     <div class="research-image-wrapper">
@@ -227,7 +227,7 @@ title: Research
 
 
 <div class="research-container">
-  <h2 style="margin-top: 3em; font-size: 1.5em;">Publications</h2>
+<h2 style="margin-bottom: 1em; font-size: 2em; text-align: center;">Publications</h2>
 
   <ul style="font-size: 1.05em; line-height: 1.6; margin-top: 1em;">
     <li id="puffem-paper">
