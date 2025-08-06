@@ -63,7 +63,7 @@ title: Home
       </p>
     </div>
     <!-- Combined Service Block -->
-    <div style="margin-top: 2em; padding: 1.5em; background: #f9f9f9; border: 1px solid #ddd; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <div style="margin-top: 1em; padding: 1.5em; background: #f9f9f9; border: 1px solid #ddd; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
       <h2 style="font-size: 1.6em; margin-bottom: 0.8em;">Academic Service</h2>
       <p style="margin-bottom: 1.2em; text-align: justify;">
         Beyond research and teaching, I actively contribute to the academic community as a peer reviewer. I served as a reviewer for <strong>CHI 2024</strong> (ACM Conference on Human Factors in Computing Systems), participating in both initial and revise-and-resubmit rounds. I also reviewed papers for the <strong>IEEE Body Sensor Networks (BSN) 2024</strong> conference, offering detailed feedback on emerging work in biomedical systems and haptics. I am committed to supporting rigorous, constructive peer review for research in interactive systems, health sensing, and wearable technologies.
