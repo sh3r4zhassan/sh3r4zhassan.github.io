@@ -110,7 +110,7 @@ title: Research
     <div class="research-text">
       <h3>SkinSpex</h3>
       <p>
-        A laser speckle imaging system for multi-biomarker monitoring (heart rate, breath, perfusion) from skin. Designed a compact setup and validated against reference sensors for accuracy across different wavelengths and skin sites.
+        SkinSpex is a compact, low-cost  system for non-contact monitoring of heart rate, respiration, perfusion, and structural skin features such as piloerection through laser speckles. Built on a Raspberry Pi Zero 2 with a multi-wavelength laser setup (560, 750, and 930 nm), the system is designed for use in everyday and point-of-care settings. I led the design and development of the full pipeline, including hardware, embedded software, and real-time speckle analysis and validated its ability to capture acute physiological changes. The work demonstrates the potential of speckle imaging for comprehensive, wearable health monitoring in real-world environments.
       </p>
       <div class="research-buttons">
         <a href="#">Paper</a>
@@ -122,12 +122,12 @@ title: Research
 
   <div class="research-row even-row">
     <div class="research-image-wrapper">
-      <img src="/assets/images/Puff.png" alt="PuffPacket" class="research-image">
+      <img src="/assets/images/Puff.png" alt="PuffEM" class="research-image">
     </div>
     <div class="research-text">
       <h3>PuffPacket</h3>
       <p>
-        A wearable acoustic sensing system for automatic detection of smoking and vaping episodes. Developed robust ML pipelines using IMU and microphone signals for free-living inference on embedded systems.
+        PuffEM is a low-power, sensor-driven system designed to detect and analyze vaping behavior on electronic nicotine delivery systems (ENDS). By combining magnetometer, touch, and IMU sensors, it enables reliable estimation of puff timing, duration, and intensity, overcoming the limitations of gesture based and self reported methods. The system supports multidevice compatibility and was validated through both lab testing and in-wild studies, capturing over 750 puffs. My contributions focused on the hardware design, sensor integration and complete embedded firmware development to support efficient, real-time sensing across different ENDS devices.
       </p>
       <div class="research-buttons">
         <a href="#puffem-paper">Paper</a>
@@ -145,7 +145,7 @@ title: Research
     <div class="research-text">
       <h3>STEF-DHNet</h3>
       <p>
-        Built a deep hybrid network for activity recognition using sequential transformer blocks fused with CNNs. Applied to multimodal human activity datasets and optimized for on-device deployment.
+        STEF-DHNet is a deep learning framework for predicting regional ride-hailing demand by capturing complex spatiotemporal patterns influenced by factors like time of day, weather, and location. The model combines Convolutional Neural Networks and LSTMs to integrate external features and forecast demand trends across urban grids. Unlike traditional models, STEF-DHNet is designed to maintain high accuracy over long periods without retraining, making it more suitable for real-world deployment. I designed, implemented, and evaluated the full pipeline, including model architecture, feature engineering, and performance benchmarking across three large-scale datasets.
       </p>
       <div class="research-buttons">
         <a href="#stef-paper">Paper</a>
@@ -161,9 +161,9 @@ title: Research
       <img src="/assets/images/Tiny.png" alt="TinyML Benchmarking" class="research-image">
     </div>
     <div class="research-text">
-      <h3>TinyML Benchmarking for Edge Devices</h3>
+      <h3>TinyMLBench: Benchmarking and Optimizing ML for Microcontrollers</h3>
       <p>
-        Designed a benchmark suite for evaluating classification models on microcontrollers using quantization-aware training. Benchmarked performance, memory, and latency across datasets and deployment targets.
+        This work explores the challenges of deploying machine learning models on microcontrollers and proposes a benchmarking framework tailored for TinyML applications. Focusing on image classification and wake word detection, the project evaluates a range of models including ResNet, MobileNetV1, TinyCNN, and a custom teacher-student model, across optimization techniques like Post-Training Quantization and Quantization Aware Training. Using TensorFlow Lite Micro and deploying on the Arduino Nano 33 BLE Sense, the study highlights tradeoffs between model accuracy and memory footprint, and demonstrates how carefully selected architectures and optimizations can enable practical, on-device intelligence in resource-constrained environments.
       </p>
       <div class="research-buttons">
         <a href="#">Blog</a>
@@ -179,9 +179,9 @@ title: Research
       <img src="/assets/images/ELM.png" alt="PPG HR Estimation" class="research-image">
     </div>
     <div class="research-text">
-      <h3>Heart Rate Estimation using RKF & ELM</h3>
+      <h3>RKF-ELM: Lightweight Heart Rate Estimation Using Kalman-Aided Extreme Learning</h3>
       <p>
-        Developed a real-time pipeline for heart rate estimation using PPG sensors. Combined recursive Kalman filtering with Extreme Learning Machines for lightweight signal tracking under noise.
+        This work explores a resource-efficient approach to heart rate monitoring from photoplethysmography (PPG) signals using a hybrid framework that combines an Extreme Learning Machine (ELM) with robust Kalman filtering. The system eliminates the need for auxiliary sensors and large-scale neural networks, enabling accurate HR estimation from single channel wrist PPG, even in the presence of motion artifacts. Evaluated on IEEE and PPG-DaLiA datasets, the approach outperforms several deep learning baselines in both accuracy and computational efficiency. Its low parameter count and fast inference make it well-suited for on-device deployment in wearable health monitors.
       </p>
       <div class="research-buttons">
         <a href="#">Blog</a>
@@ -196,9 +196,9 @@ title: Research
       <img src="/assets/images/Adversarial.jpeg" alt="HR Robustness" class="research-image">
     </div>
     <div class="research-text">
-      <h3>Robustness of HR Estimation</h3>
+      <h3>Robustness in Heart Rate Estimation: Distribution-Based Attacks on PPG Time Series Models</h3>
       <p>
-        Evaluated performance of wearable HR estimation pipelines under varying lighting, motion, and sensor conditions. Conducted robustness analysis across 5+ experimental settings to guide model generalizability.
+        This work investigates the vulnerability of heart rate estimation models to adversarial perturbations in photoplethysmography (PPG) time series data. We propose two new white-box attacks—Fast Distribution Attack (FDA) and Filtered Distribution Alpha Attack (FDAA)—that strategically disrupt model outputs by targeting the most influential signal regions. Evaluated on IEEE and PPG-DaLiA datasets, these attacks consistently degrade the performance of both deep CNN-BiLSTM models and resource efficient ELMs, highlighting critical robustness gaps in wearable HR systems.
       </p>
       <div class="research-buttons">
         <a href="#">Blog</a>
@@ -215,7 +215,7 @@ title: Research
     <div class="research-text">
       <h3>PPG Motion Artifacts </h3>
       <p>
-        Evaluated performance of wearable HR estimation pipelines under varying lighting, motion, and sensor conditions. Conducted robustness analysis across 5+ experimental settings to guide model generalizability.
+        This work presents a motion artifact removal framework for wearable photoplethysmography (PPG) signals acquired from low-cost sensors like the MAXREFDES103. The system classifies artifacts into far-wrist and near-wrist motions using statistical features (skewness and kurtosis), then applies customized denoising techniques: averaging for low-intensity motions and a combination of adaptive and notch filters for high-intensity artifacts. This tiered approach improves both signal clarity and processing efficiency. Evaluated across multiple motion types and subjects, the method significantly reduces noise while preserving physiological features like R-R intervals and breathing trends, enabling more accurate heart rate and respiratory monitoring in real-world wearable settings.
       </p>
       <div class="research-buttons">
         <a href="#">Blog</a>
