@@ -198,7 +198,7 @@ title: Research
     <div class="research-text">
       <h3>Robustness in Heart Rate Estimation: Distribution Based Attacks on PPG Time Series Models</h3>
       <p>
-        This work investigates the vulnerability of heart rate estimation models to adversarial perturbations in photoplethysmography (PPG) time series data. We propose two new white-box attacks—Fast Distribution Attack (FDA) and Filtered Distribution Alpha Attack (FDAA) that strategically disrupt model outputs by targeting the most influential signal regions. Evaluated on IEEE and PPG-DaLiA datasets, these attacks consistently degrade the performance of both deep CNN-BiLSTM models and resource efficient ELMs, highlighting critical robustness gaps in wearable HR systems.
+        This work investigates the vulnerability of heart rate estimation models to adversarial perturbations in photoplethysmography (PPG) time series data. We propose two new white-box attacks, Fast Distribution Attack (FDA) and Filtered Distribution Alpha Attack (FDAA), that strategically disrupt model outputs by targeting the most influential signal regions. Evaluated on IEEE and PPG-DaLiA datasets, these attacks consistently degrade the performance of both deep CNN-BiLSTM models and resource efficient ELMs, highlighting critical robustness gaps in wearable HR systems.
       </p>
       <div class="research-buttons">
         <a href="#">Blog</a>
