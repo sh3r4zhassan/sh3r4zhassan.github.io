@@ -213,7 +213,7 @@ title: Research
       <img src="/assets/images/Motionartifacts.png" alt="HR Robustness" class="research-image">
     </div>
     <div class="research-text">
-      <h3>Signal Recovery from Motion: A Framework for Cleansing Wrist Worn PPG"</h3>
+      <h3>Signal Recovery from Motion: A Framework for Cleansing Wrist Worn PPG</h3>
       <p>
         This work presents a motion artifact removal framework for wearable photoplethysmography (PPG) signals acquired from sensors like the MAXREFDES103. The system classifies artifacts into far-wrist and near-wrist motions using statistical features (skewness and kurtosis), then applies customized denoising techniques: averaging for low-intensity motions and a combination of adaptive and notch filters for high intensity artifacts. This tiered approach improves both signal clarity and processing efficiency. Evaluated across multiple motion types and subjects, the method significantly reduces noise while preserving physiological features like R-R intervals and breathing trends, enabling more accurate heart rate and respiratory monitoring in real-world wearable settings.
       </p>
