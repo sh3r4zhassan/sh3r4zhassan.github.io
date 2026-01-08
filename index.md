@@ -66,11 +66,11 @@ title: Home
     <div style="margin-top: 0.5em; padding: 1.5em; background: #f9f9f9; border: 1px solid #ddd; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
       <h2 style="font-size: 1.6em; margin-bottom: 0.8em;">Honors and Awards</h2>
       <p style="margin-bottom: 1.2em; text-align: justify;">
-        <strong>IEEE BSN 2025 Travel Award Recipient</strong><br>
+        <strong>IEEE-EMBS BSN Travel Award Recipient</strong><br>
         Selected as a recipient of the competitive travel award for the IEEE International Conference on Body Sensor Networks, recognizing high-quality research contributions in wearable and biomedical sensing systems.
       </p>
       <p style="margin-bottom: 1.2em; text-align: justify;">
-        <strong>Winner – WISH Center 2025 Travel Award</strong><br>
+        <strong>WISH Center 2025 Travel Award Winner</strong><br>
         Awarded funding by the Georgia Tech WISH (Wearable Intelligent Systems and Healthcare) Center in recognition of impactful research in wearable health sensing.
       </p>
       <h2 style="font-size: 1.6em; margin-bottom: 0.8em;">Academic Service</h2>

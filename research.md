@@ -230,8 +230,15 @@ title: Research
 <h2 style="margin-bottom: 1em; font-size: 2em; text-align: center;">Publications</h2>
 
   <ul style="font-size: 1.05em; line-height: 1.6; margin-top: 1em;">
+    <li id="skinspex-paper">
+      <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aNlZoQwAAAAJ&citation_for_view=aNlZoQwAAAAJ:9yKSN-GCB0IC" target="_blank" style="color: #1a0dab; text-decoration: none;">
+        <em>“SkinSpex: A Portable Speckle Imaging Prototype for Multiple Skin Biomarker Detection.”</em>
+      </a>
+      <strong>Sheraz Hassan</strong>, Kefan Song, Alexander T Adams.  
+      <span>IEEE-EMBS International Conference on Body Sensor Networks (BSN), 2025.</span>
+    </li>
     <li id="puffem-paper">
-      <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aNlZoQwAAAAJ&citation_for_view=aNlZoQwAAAAJ:u-x6o8ySG0sC" target="_blank" style="color: #1a0dab; text-decoration: none;">
+      <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aNlZoQwAAAAJ&citation_for_view=aNlZoQwAAAAJ:d1gkVwhDpl0C" target="_blank" style="color: #1a0dab; text-decoration: none;">
         <em>“PuffEM: An E-cigarette Sleeve for Estimating User Nicotine Intake.”</em>
       </a>
       Yiyang Wang, Rishabh Goel, <strong>Sheraz Hassan</strong>, Taegen J Doscher, Shilin Wang, Lexington Allen Whalen, Aditya S Gandhi, Yaman S Sangar, Alex Cabral, Xuhai Xu, Josiah Hester, Alexander T Adams.  
