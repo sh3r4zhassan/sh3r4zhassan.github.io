@@ -20,7 +20,7 @@ title: Home
 <div style=" padding: 0 1em;">
   <div style="display: flex; flex-wrap: wrap; gap: 2em; align-items: stretch;text-align: justify;">
     <!-- Left Column: Professional Experience -->
-    <div style="flex: 1; min-width: 280px; background: #fff; border: 1px solid #ddd; border-radius: 12px; padding: 1.5em; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <div style="flex: 1; min-width: 280px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 12px; padding: 1.5em; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
       <h2 style="font-size: 1.6em; margin-bottom: 0.8em;">Professional Experience</h2>
       <p style="margin-bottom: 1.2em;">
         <strong>Graduate Research Assistant</strong><br>
@@ -39,7 +39,7 @@ title: Home
       </p>
     </div>
     <!-- Right Column: Teaching Experience -->
-    <div style="flex: 1; min-width: 280px; background: #fff; border: 1px solid #ddd; border-radius: 12px; padding: 1.5em; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <div style="flex: 1; min-width: 280px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 12px; padding: 1.5em; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
       <h2 style="font-size: 1.6em; margin-bottom: 0.8em;">Teaching Experience</h2>
       <p style="margin-bottom: 1.2em;">
         <strong>Artificial Intelligence (TA)</strong><br>
