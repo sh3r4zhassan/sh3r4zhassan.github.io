@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blog
+permalink: /blog/
 ---
 
 <div style="max-width: 900px; margin: auto; padding: 2em 1em; text-align: center;">
