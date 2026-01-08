@@ -64,6 +64,15 @@ title: Home
     </div>
     <!-- Combined Service Block -->
     <div style="margin-top: 0.5em; padding: 1.5em; background: #f9f9f9; border: 1px solid #ddd; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+      <h2 style="font-size: 1.6em; margin-bottom: 0.8em;">Honors and Awards</h2>
+      <p style="margin-bottom: 1.2em; text-align: justify;">
+        <strong>IEEE BSN 2025 Travel Award Recipient</strong><br>
+        Selected as a recipient of the competitive travel award for the IEEE International Conference on Body Sensor Networks (BSN 2025), recognizing high-quality research contributions in wearable and biomedical sensing systems.
+      </p>
+      <p style="margin-bottom: 1.2em; text-align: justify;">
+        <strong>Winner – WISH Center 2025 Travel Award</strong><br>
+        Awarded funding by the Georgia Tech WISH (Wearable Intelligent Systems and Healthcare Centerlth) Center in recognition of impactful research in wearable health sensing.
+      </p>
       <h2 style="font-size: 1.6em; margin-bottom: 0.8em;">Academic Service</h2>
       <p style="margin-bottom: 1.2em; text-align: justify;">
         Beyond research and teaching, I actively contribute to the academic community as a peer reviewer. I served as a reviewer for <strong>CHI 2024</strong> (ACM Conference on Human Factors in Computing Systems), participating in both initial and revise-and-resubmit rounds. I also reviewed papers for the <strong>IEEE Body Sensor Networks (BSN) 2024</strong> conference, offering detailed feedback on emerging work in biomedical systems and haptics. I am committed to supporting rigorous, constructive peer review for research in interactive systems, health sensing, and wearable technologies.
