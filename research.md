@@ -113,7 +113,7 @@ title: Research
         SkinSpex is a compact, low-cost  system for non-contact monitoring of heart rate, respiration, perfusion, and structural skin features such as piloerection through laser speckles. Built on a Raspberry Pi Zero 2 with a multi-wavelength laser setup (560, 750, and 930 nm), the system is designed for use in everyday and point-of-care settings. I led the design and development of the full pipeline, including hardware, embedded software, and real-time speckle analysis and validated its ability to capture acute physiological changes. The work demonstrates the potential of speckle imaging for comprehensive, wearable health monitoring in real-world environments.
       </p>
       <div class="research-buttons">
-        <a href="#">Paper</a>
+        <a href="#skinspex-paper">Paper</a>
       </div>
     </div>
   </div>
@@ -166,7 +166,7 @@ title: Research
         This work explores the challenges of deploying machine learning models on microcontrollers and proposes a benchmarking framework tailored for TinyML applications. Focusing on image classification and wake word detection, the project evaluates a range of models including ResNet, MobileNetV1, TinyCNN, and a custom teacher-student model, across optimization techniques like Post-Training Quantization and Quantization Aware Training. Using TensorFlow Lite Micro and deploying on the Arduino Nano 33 BLE Sense, the study highlights tradeoffs between model accuracy and memory footprint, and demonstrates how carefully selected architectures and optimizations can enable practical, on-device intelligence in resource-constrained environments.
       </p>
       <div class="research-buttons">
-        <a href="#">Blog</a>
+        <a href="/blogs.md">Blog</a>
       </div>
     </div>
   </div>
@@ -184,7 +184,7 @@ title: Research
         This work explores a resource-efficient approach to heart rate monitoring from photoplethysmography (PPG) signals using a hybrid framework that combines an Extreme Learning Machine (ELM) with robust Kalman filtering. The system eliminates the need for auxiliary sensors and large scale neural networks, enabling accurate HR estimation from single channel wrist PPG, even in the presence of motion artifacts. Evaluated on IEEE and PPG-DaLiA datasets, the approach outperforms several deep learning baselines in both accuracy and computational efficiency. Its low parameter count and fast inference make it well suited for on-device deployment in wearable health monitors.
       </p>
       <div class="research-buttons">
-        <a href="#">Blog</a>
+        <a href="/blogs.md">Blog</a>
       </div>
     </div>
   </div>
@@ -201,7 +201,7 @@ title: Research
         This work investigates the vulnerability of heart rate estimation models to adversarial perturbations in photoplethysmography (PPG) time series data. We propose two new white-box attacks, Fast Distribution Attack (FDA) and Filtered Distribution Alpha Attack (FDAA), that strategically disrupt model outputs by targeting the most influential signal regions. Evaluated on IEEE and PPG-DaLiA datasets, these attacks consistently degrade the performance of both deep CNN-BiLSTM models and resource efficient ELMs, highlighting critical robustness gaps in wearable HR systems.
       </p>
       <div class="research-buttons">
-        <a href="#">Blog</a>
+        <a href="/blogs.md">Blog</a>
       </div>
     </div>
   </div>
@@ -218,7 +218,7 @@ title: Research
         This work presents a motion artifact removal framework for wearable photoplethysmography (PPG) signals acquired from sensors like the MAXREFDES103. The system classifies artifacts into far-wrist and near-wrist motions using statistical features (skewness and kurtosis), then applies customized denoising techniques: averaging for low-intensity motions and a combination of adaptive and notch filters for high intensity artifacts. This tiered approach improves both signal clarity and processing efficiency. Evaluated across multiple motion types and subjects, the method significantly reduces noise while preserving physiological features like R-R intervals and breathing trends, enabling more accurate heart rate and respiratory monitoring in real-world wearable settings.
       </p>
       <div class="research-buttons">
-        <a href="#">Blog</a>
+        <a href="/blogs.md">Blog</a>
       </div>
     </div>
   </div>
