@@ -166,7 +166,7 @@ title: Research
         This work explores the challenges of deploying machine learning models on microcontrollers and proposes a benchmarking framework tailored for TinyML applications. Focusing on image classification and wake word detection, the project evaluates a range of models including ResNet, MobileNetV1, TinyCNN, and a custom teacher-student model, across optimization techniques like Post-Training Quantization and Quantization Aware Training. Using TensorFlow Lite Micro and deploying on the Arduino Nano 33 BLE Sense, the study highlights tradeoffs between model accuracy and memory footprint, and demonstrates how carefully selected architectures and optimizations can enable practical, on-device intelligence in resource-constrained environments.
       </p>
       <div class="research-buttons">
-        <a href="/blogs.md">Blog</a>
+        <a href="/blog.md">Blog</a>
       </div>
     </div>
   </div>
@@ -184,7 +184,7 @@ title: Research
         This work explores a resource-efficient approach to heart rate monitoring from photoplethysmography (PPG) signals using a hybrid framework that combines an Extreme Learning Machine (ELM) with robust Kalman filtering. The system eliminates the need for auxiliary sensors and large scale neural networks, enabling accurate HR estimation from single channel wrist PPG, even in the presence of motion artifacts. Evaluated on IEEE and PPG-DaLiA datasets, the approach outperforms several deep learning baselines in both accuracy and computational efficiency. Its low parameter count and fast inference make it well suited for on-device deployment in wearable health monitors.
       </p>
       <div class="research-buttons">
-        <a href="/blogs.md">Blog</a>
+        <a href="/blog.md">Blog</a>
       </div>
     </div>
   </div>
@@ -201,7 +201,7 @@ title: Research
         This work investigates the vulnerability of heart rate estimation models to adversarial perturbations in photoplethysmography (PPG) time series data. We propose two new white-box attacks, Fast Distribution Attack (FDA) and Filtered Distribution Alpha Attack (FDAA), that strategically disrupt model outputs by targeting the most influential signal regions. Evaluated on IEEE and PPG-DaLiA datasets, these attacks consistently degrade the performance of both deep CNN-BiLSTM models and resource efficient ELMs, highlighting critical robustness gaps in wearable HR systems.
       </p>
       <div class="research-buttons">
-        <a href="/blogs.md">Blog</a>
+        <a href="/blog.md">Blog</a>
       </div>
     </div>
   </div>
@@ -218,7 +218,7 @@ title: Research
         This work presents a motion artifact removal framework for wearable photoplethysmography (PPG) signals acquired from sensors like the MAXREFDES103. The system classifies artifacts into far-wrist and near-wrist motions using statistical features (skewness and kurtosis), then applies customized denoising techniques: averaging for low-intensity motions and a combination of adaptive and notch filters for high intensity artifacts. This tiered approach improves both signal clarity and processing efficiency. Evaluated across multiple motion types and subjects, the method significantly reduces noise while preserving physiological features like R-R intervals and breathing trends, enabling more accurate heart rate and respiratory monitoring in real-world wearable settings.
       </p>
       <div class="research-buttons">
-        <a href="/blogs.md">Blog</a>
+        <a href="/blog.md">Blog</a>
       </div>
     </div>
   </div>
@@ -230,21 +230,21 @@ title: Research
 <h2 style="margin-bottom: 1em; font-size: 2em; text-align: center;">Publications</h2>
 
   <ul style="font-size: 1.05em; line-height: 1.6; margin-top: 1em;">
-    <li id="skinspex-paper">
+    <li id="skinspex-paper" style="margin-bottom: 1.2em;">
       <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aNlZoQwAAAAJ&citation_for_view=aNlZoQwAAAAJ:9yKSN-GCB0IC" target="_blank" style="color: #1a0dab; text-decoration: none;">
         <em>“SkinSpex: A Portable Speckle Imaging Prototype for Multiple Skin Biomarker Detection.”</em>
       </a>
       <strong>Sheraz Hassan</strong>, Kefan Song, Alexander T Adams.  
       <span>IEEE-EMBS International Conference on Body Sensor Networks (BSN), 2025.</span>
     </li>
-    <li id="puffem-paper">
+    <li id="puffem-paper" style="margin-bottom: 1.2em;">
       <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aNlZoQwAAAAJ&citation_for_view=aNlZoQwAAAAJ:d1gkVwhDpl0C" target="_blank" style="color: #1a0dab; text-decoration: none;">
         <em>“PuffEM: An E-cigarette Sleeve for Estimating User Nicotine Intake.”</em>
       </a>
       Yiyang Wang, Rishabh Goel, <strong>Sheraz Hassan</strong>, Taegen J Doscher, Shilin Wang, Lexington Allen Whalen, Aditya S Gandhi, Yaman S Sangar, Alex Cabral, Xuhai Xu, Josiah Hester, Alexander T Adams.  
       <span>ACM/IEEE Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE), 2025.</span>
     </li>
-    <li id="stef-paper">
+    <li id="stef-paper" style="margin-bottom: 1.2em;">
       <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aNlZoQwAAAAJ&citation_for_view=aNlZoQwAAAAJ:u5HHmVD_uO8C" target="_blank" style="color: #1a0dab; text-decoration: none;">
         <em>“STEF-DHNet: Spatiotemporal External Factors Based Deep Hybrid Network for Enhanced Long-Term Taxi Demand Prediction.”</em>
       </a>
