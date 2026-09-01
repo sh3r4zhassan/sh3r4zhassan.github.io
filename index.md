@@ -9,10 +9,10 @@ title: Home
   </div>
   <div style="flex: 1; align-self: flex-end;">
     <h1 style="font-size: 2.2em; margin-bottom: 0.3em;">Sheraz Hassan</h1>
-    <h2 style="font-weight: normal; font-size: 1.2em; margin-bottom: 0.6em;"><em>Computer Science Ph.D. Candidate</em></h2>
+    <h2 style="font-weight: normal; font-size: 1.2em; margin-bottom: 0.6em;"><em>M.S. Computer Science, AI Specialization</em></h2>
     <!-- <p style="margin: 0.5em 0; font-size: 1.05em;">Machine Learning &bull; Embedded Health Sensing &bull; Wearable Computing</p> -->
     <p style="margin-top: 1em; font-size: 1.05em; line-height: 1.6;text-align: justify;">
-      I’m a CS PhD candidate at the School of Interactive Computing, <strong>Georgia Institute of Technology</strong>, with a background in Electrical Engineering from <strong>Lahore University of Management Sciences</strong>. My research focuses on embedded health sensing and low-power, resource-constrained machine learning for wearable devices, spanning both algorithm design and on-device deployment. Alongside this research, I build full-stack ML/AI systems and the infrastructure behind them — from fine-tuning and serving language models to designing Kubernetes-based platforms, GitOps pipelines, and agentic tooling in production environments. I'm equally comfortable prototyping a new signal-processing algorithm and shipping the Kubernetes operator, CI/CD pipeline, and cloud infrastructure that puts a real system into production.
+      I’m a Master's student in Computer Science (AI Specialization) at <strong>Georgia Institute of Technology</strong>, with a background in Electrical Engineering from <strong>Lahore University of Management Sciences</strong>. My research focuses on embedded health sensing and low-power, resource-constrained machine learning for wearable devices, spanning both algorithm design and on-device deployment. Alongside this research, I build full-stack ML/AI systems and the infrastructure behind them — from fine-tuning and serving language models to designing Kubernetes-based platforms, GitOps pipelines, and agentic tooling in production environments. I'm equally comfortable prototyping a new signal-processing algorithm and shipping the Kubernetes operator, CI/CD pipeline, and cloud infrastructure that puts a real system into production.
     </p>
   </div>
 </div>
@@ -33,9 +33,9 @@ title: Home
         Designing low-cost, embedded systems for wearable health monitoring using multimodal sensors and microcontrollers along with deploying resource-efficient machine learning (TinyML) on edge hardware for physiological signal processing and inference.
       </p>
       <p style="margin-bottom: 1.2em;">
-        <strong>Research Assistant</strong><br>
+        <strong>Machine Learning Engineer</strong><br>
         <span style="color: #555;"><strong>Smart Data Systems and Applications Lab (SDSA)</strong>  Jun 2021 – Jul 2023</span><br>
-        Developed end-to-end ML pipelines and hardware prototypes for healthcare, including real-time activity monitoring and biomedical signal processing. Also led projects on heart rate estimation, sound classification, and demand prediction for ride hailing services.
+        Engineered and trained a CNN-LSTM demand-forecasting model in PyTorch, improving long-term rolling-window accuracy by 12% over state-of-the-art baselines and shipping the model to Careem for production use. Also developed and deployed on wearable hardware a 20K-parameter ELM-Kalman heart-rate estimator, 92% smaller than prior state of the art, then ran an adversarial ML evaluation exposing model degradation.
       </p>
       <p>
         <strong>Co-Researcher</strong><br>
