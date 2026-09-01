@@ -100,6 +100,28 @@ title: Projects
 
   <div class="project-row">
     <div class="project-image-wrapper">
+      <img src="/assets/images/PodSentinel.png" alt="PodSentinel" class="project-image">
+    </div>
+    <div class="project-text">
+      <h3>PodSentinel: Agentic Kubernetes Incident-Response Platform</h3>
+      <p>
+        PodSentinel is an agentic RAG system that diagnoses and remediates live Kubernetes incidents. A QLoRA-fine-tuned
+        Qwen2.5-3B model and a custom Go MCP server query real-time cluster state and internal runbooks to produce a
+        diagnosis, and a Go Kubernetes operator carries out remediation only after explicit human approval. The whole
+        system is deployed across 5 microservices via a self-hosted GitHub Actions, Helm, and ArgoCD GitOps pipeline,
+        running live on AWS and Cloudflare.
+      </p>
+      <div class="project-buttons">
+        <a href="https://podsentinel.sherazhassan.com" target="_blank">Live Demo</a>
+        <a href="https://github.com/sh3r4zhassan/ai-ops-copilot" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-divider"></div>
+
+  <div class="project-row">
+    <div class="project-image-wrapper">
       <img src="/assets/images/Plateperfect.jpg" alt="PlatePerfect" class="project-image">
     </div>
     <div class="project-text">

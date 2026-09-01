@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>{{ page.title }} | Sheraz Hassan</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+      /* === Main Navigation === */
+      .main-nav {
+        background: transparent;
+        padding: 1em 0 0.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .nav-pill {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1em;
+        background: #f1f1f1;
+        padding: 0.6em 2em;
+        border-radius: 2em;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+        width: 100%;
+        max-width: 600px;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 0.08em;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+        color: #222;
+        font-weight: 500;
+        font-size: 1rem;
+        transition: color 0.2s ease;
+      }
+
+      .nav-links a:hover {
+        color: #0077cc;
+      }
+
+      .nav-icons {
+        display: flex;
+        align-items: center;
+        gap: 0.03em;
+      }
+
+      .nav-icons a {
+        color: #222;
+        font-size: 1rem;
+        transition: color 0.2s ease;
+      }
+
+      .nav-icons a:hover {
+        color: #0077cc;
+      }
+
+      /* === Page Content === */
+      main > div {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1em 1em 1em;
+      }
+
+      /* === Footer === */
+      footer {
+        background: #ffffff;
+        padding: 1em 1em;
+        margin-top: 2em;
+      }
+
+      footer > div {
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+        border-top: 1.5px solid #f1f1f1;
+        padding-top: 1.5em;
+      }
+
+      footer p {
+        color: #888;
+        font-size: 0.8rem;
+      }
+
+      /* === Mobile Responsive === */
+      @media (max-width: 600px) {
+        .nav-pill {
+          flex-direction: column;
+          align-items: center;
+          padding: 0.8em 1em;
+          gap: 0.5em;
+        }
+
+        .nav-links,
+        .nav-icons {
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 0.5em;
+        }
+
+        .nav-links a,
+        .nav-icons a {
+          font-size: 0.9rem;
+        }
+
+        main > div {
+          padding: 1em 0.8em !important;
+        }
+
+        footer > div {
+          padding-top: 1em !important;
+        }
+
+        footer p {
+          font-size: 0.75rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- === Sticky Pill Navigation === -->
+    <nav class="main-nav">
+      <div class="nav-pill">
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/research">Research</a>
+          <a href="/projects">Projects</a>
+          <a href="/blog">Blog</a>
+          <a href="/assets/pdfs/Sheraz_Hassan_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+          <a href="/assets/pdfs/Sheraz_Hassan_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+        </div>
+        <div class="nav-icons">
+          <a href="https://www.linkedin.com/in/sh3r4zhassan/" class="fab fa-linkedin" title="LinkedIn" target="_blank" rel="noopener noreferrer"></a>
+          <a href="https://github.com/sh3r4zhassan" class="fab fa-github" title="GitHub" target="_blank" rel="noopener noreferrer"></a>
+          <a href="https://scholar.google.com/citations?user=aNlZoQwAAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-graduation-cap"></i>
+          </a>
+          <a href="mailto:sherazhassan358@gmail.com" class="fa-solid fa-envelope" title="Email" target="_blank" rel="noopener noreferrer"></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- === Page Content === -->
+    <main>
+      <div>
+        {{ content }}
+      </div>
+    </main>
+
+    <!-- === Footer === -->
+    <footer>
+      <div>
+        <p>&copy; 2025 All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>

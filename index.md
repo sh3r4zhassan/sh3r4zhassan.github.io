@@ -12,7 +12,7 @@ title: Home
     <h2 style="font-weight: normal; font-size: 1.2em; margin-bottom: 0.6em;"><em>Computer Science Ph.D. Candidate</em></h2>
     <!-- <p style="margin: 0.5em 0; font-size: 1.05em;">Machine Learning &bull; Embedded Health Sensing &bull; Wearable Computing</p> -->
     <p style="margin-top: 1em; font-size: 1.05em; line-height: 1.6;text-align: justify;">
-      I’m a CS PhD student at the School of Interactive Computing, <strong>Georgia Institute of Technology</strong>, with a background in Electrical Engineering from <strong>Lahore University of Management Sciences</strong>. My research interests sit at the intersection of machine learning, embedded systems, and wearable sensing, with a focus on healthcare applications. I design low-power, resource-constrained systems with multimodal sensing and deploy optimized on-device machine learning models (TinyML) for physiological monitoring. Spanning both system design and algorithm deployment, my goal is to enable scalable, cost-effective solutions for continuous sensing and decision making in real world environments.
+      I’m a CS PhD candidate at the School of Interactive Computing, <strong>Georgia Institute of Technology</strong>, with a background in Electrical Engineering from <strong>Lahore University of Management Sciences</strong>. My research focuses on embedded health sensing and low-power, resource-constrained machine learning for wearable devices, spanning both algorithm design and on-device deployment. Alongside this research, I build full-stack ML/AI systems and the infrastructure behind them — from fine-tuning and serving language models to designing Kubernetes-based platforms, GitOps pipelines, and agentic tooling in production environments. I'm equally comfortable prototyping a new signal-processing algorithm and shipping the Kubernetes operator, CI/CD pipeline, and cloud infrastructure that puts a real system into production.
     </p>
   </div>
 </div>
@@ -22,6 +22,11 @@ title: Home
     <!-- Left Column: Professional Experience -->
     <div style="flex: 1; min-width: 280px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 12px; padding: 1.5em; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
       <h2 style="font-size: 1.6em; margin-bottom: 0.8em;">Professional Experience</h2>
+      <p style="margin-bottom: 1.2em;">
+        <strong>Software Engineering Intern</strong><br>
+        <span style="color: #555;"><strong>Tractian</strong>  May 2026 – Jul 2026</span><br>
+        Designed and shipped an internal developer platform on Kubernetes using Terraform, ArgoCD, and Helm, exposing REST APIs for deployment with Vault-based secret injection and Datadog-monitored health checks, reducing deployment time by over 70%. Also built the platform's AI layer, including an autonomous provisioning agent on the Claude Agent SDK and a production RAG assistant over 80+ internal documents, adopted by 100+ employees after winning the company hackathon.
+      </p>
       <p style="margin-bottom: 1.2em;">
         <strong>Graduate Research Assistant</strong><br>
         <span style="color: #555;"><strong>Georgia Institute of Technology</strong>  Sep 2023 – Present</span><br>
